@@ -132,7 +132,7 @@ const study = {
 study.timeline = {
   "checkedAt": "2026-10-28T01:05:00+08:00",
   "latestEmail": "28 October 2026 · 00:18 HKT",
-  "summary": "The latest Assessment Office reply directs students to the candidate instructions for the coursework word limit. It does not settle the original-title versus new-paper conflict. The current plan retains that clarification task and the November PDF rules.",
+  "summary": "The latest Assessment Office reply directs students to the candidate instructions for the coursework word limit. It does not settle the original-title versus new-paper conflict. The current plan retains that clarification task and the November PDF rules. All four November assessment courses are now linked directly. The ELS coursework Word Answer Booklet is available; the Equity written course currently has no released content. Check academic-conduct completion and the pre-assessment checklist.",
   "monitor": "Daily mailbox check and website update scheduled for 09:00 HKT through 19 January 2027. Runs need this computer and Codex available, plus working university sign-in. Check the timestamp above for the last successful review.",
   "resources": {
     "cw": {
@@ -219,6 +219,47 @@ study.timeline = {
     "eqUpdate": {
       "label": "Equity resitter law update",
       "note": "University login. Read alongside the current November candidate instructions; current sitting instructions control its format."
+    },
+    "cwAssessment": {
+      "label": "November ELS coursework course",
+      "url": "https://elite.law.ac.uk/ultra/courses/_69935285_1/outline",
+      "note": "Your Assessment → Coursework → Coursework - Assessment Submission - LWC-ECN-NOV26_CW2. Standard deadline displayed in ELITE: 2 November 17:30 (UTC+8). This course link does not itself submit a file."
+    },
+    "cwBooklet": {
+      "label": "Actual ELS Coursework - Answer Booklet",
+      "url": "https://elite.law.ac.uk/ultra/courses/_69935285_1/file/_21178546_1?courseId=_69935285_1",
+      "file": "Coursework - Answer Booklet (Word document)",
+      "note": "Verified in the November ELS assessment course on 28 October. Download this actual booklet for coursework; save your answer locally using the required SRN filename."
+    },
+    "eqWrittenCourse": {
+      "label": "November Equity written assessment course",
+      "url": "https://elite.law.ac.uk/ultra/courses/_69936009_1/outline",
+      "note": "Verified on 28 October: course exists but says “Content is on its way!” Advance documentation and the actual Answer Booklet are not yet visible. Recheck at the official release; follow your applicable standard/adjusted access instructions."
+    },
+    "eqSbaCourse": {
+      "label": "November Equity SBA assessment course",
+      "url": "https://elite.law.ac.uk/ultra/courses/_69936008_1/outline",
+      "note": "Verified November 2026 SBA resit course. Read Before Your Assessment. Do not start the actual assessment before your applicable standard or adjusted start."
+    },
+    "elsSbaCourse": {
+      "label": "November ELS SBA assessment course",
+      "url": "https://elite.law.ac.uk/ultra/courses/_69936007_1/outline",
+      "note": "Verified November 2026 ELS SBA resit course. Read Before Your Assessment. Do not start the actual assessment before your applicable standard or adjusted start."
+    },
+    "conduct": {
+      "label": "Skills Academy — Academic Conduct",
+      "url": "https://elite.law.ac.uk/ultra/courses/_69927545_1/outline",
+      "note": "The coursework course says this is mandatory before your first assessment. Verify whether you already completed it; a link marked Not started does not establish completion inside that separate course."
+    },
+    "precheck": {
+      "label": "ELS Pre-Assessment Essential Checklist",
+      "url": "https://elite.law.ac.uk/ultra/courses/_69935285_1/assessment/_21178141_1/overview?courseId=_69935285_1",
+      "note": "Preparation checklist under Before Your Assessment, not the real coursework/SBA. Review and complete any required acknowledgments yourself; no completion is verified here."
+    },
+    "techSupport": {
+      "label": "Official technical-issue instructions",
+      "url": "https://ulaw365.sharepoint.com/sites/StudentInformationCommunication/SitePages/Preparing%20for%20your%20Assessments.aspx#what-to-do-if-there-is-a-technical-issue-during-an-online-assessment",
+      "note": "University login. Read the reporting route before the sitting and follow it promptly if a genuine technical problem occurs."
     }
   },
   "days": [
@@ -234,7 +275,8 @@ study.timeline = {
           "resources": [
             "mail",
             "cw",
-            "elsGuide"
+            "cwAssessment",
+            "cwBooklet"
           ],
           "units": [],
           "output": "Written confirmation of the applicable title; keep it with your assessment files."
@@ -278,13 +320,26 @@ study.timeline = {
       "title": "Build the coursework argument; cover implied trusts",
       "tasks": [
         {
+          "id": "conduct-check",
+          "kind": "Required preparation",
+          "title": "Verify academic-conduct preparation and review the checklist",
+          "text": "The November coursework course requires the Skills Academy academic-conduct course before your first assessment. Verify whether you already completed it and finish it if needed. Review the Pre-Assessment Essential Checklist and any instructions in each component’s Before Your Assessment area. Completion is not verified here.",
+          "resources": [
+            "conduct",
+            "precheck",
+            "cwAssessment"
+          ],
+          "units": [],
+          "output": "Your own completion record, plus a reviewed preparation checklist."
+        },
+        {
           "id": "cw-outline",
           "kind": "Suggested study",
           "title": "Plan and begin the confirmed coursework",
           "text": "Only after the title is confirmed: use two 50-minute blocks for your independent argument, primary authorities and a clear outline. If still unresolved, follow up rather than assume which paper applies. The general published rule is 2,500 words for titles set from September 2023, with a 10% tolerance buffer.",
           "resources": [
             "cw",
-            "elsGuide",
+            "cwBooklet",
             "criteria"
           ],
           "units": [],
@@ -311,10 +366,11 @@ study.timeline = {
           "title": "Check your registered courses and timing links",
           "text": "Find all four components and verify access to the correct November standard or adjusted course. Record your own applicable starts in your calendar; do not assume an adjustment from resit registration alone.",
           "resources": [
-            "courses",
-            "mail",
-            "sba",
-            "owe"
+            "cwAssessment",
+            "eqWrittenCourse",
+            "eqSbaCourse",
+            "elsSbaCourse",
+            "mail"
           ],
           "units": []
         }
@@ -331,6 +387,7 @@ study.timeline = {
           "text": "Two 50-minute blocks on the confirmed title. Check each legal proposition against a source; keep a separate list of gaps to repair.",
           "resources": [
             "cw",
+            "cwBooklet",
             "criteria",
             "elsCourse"
           ],
@@ -366,6 +423,7 @@ study.timeline = {
           "text": "Two 50-minute blocks: test the answer against the question and Level 7 criteria, remove unsupported assertions, check citations and the applicable word count.",
           "resources": [
             "cw",
+            "cwBooklet",
             "criteria"
           ],
           "units": [],
@@ -401,7 +459,8 @@ study.timeline = {
           "title": "Aim to submit ELS coursework today",
           "text": "Finish independent checks, use the actual assessment Answer Booklet and correct Turnitin box, and save the receipt. Filename: [SRN]_ECN_Assessment; use your Student Reference Number, not your candidate number. This early target does not change tomorrow’s official deadline.",
           "resources": [
-            "courses",
+            "cwAssessment",
+            "cwBooklet",
             "cw",
             "criteria"
           ],
@@ -435,8 +494,10 @@ study.timeline = {
           "title": "Submit before 17:30 HKT",
           "text": "Final official deadline: 09:30 UK / 17:30 HKT. Coursework is submitted through Turnitin, not email. No time-zone adjustment applies. Check the correct box and receipt; avoid replacing an on-time file with a late version.",
           "resources": [
-            "courses",
-            "cw"
+            "cwAssessment",
+            "cwBooklet",
+            "cw",
+            "techSupport"
           ],
           "units": [],
           "time": "Before 17:30 HKT",
@@ -497,10 +558,13 @@ study.timeline = {
           "title": "Rehearse saving and uploading a local Word file",
           "text": "Use Chrome or Firefox, a local Microsoft Word file and the Assessment Practice Area available through ELITE. Check the actual Answer Booklet, SRN, internet and backup connection. November is open book and unproctored; no Respondus is required for these sittings.",
           "resources": [
-            "courses",
+            "cwAssessment",
+            "eqWrittenCourse",
+            "eqSbaCourse",
+            "elsSbaCourse",
             "mock",
             "owe",
-            "sba"
+            "techSupport"
           ],
           "units": [],
           "output": "Working local Word save, upload rehearsal and a short authority index."
@@ -530,7 +594,7 @@ study.timeline = {
           "title": "Get the Equity advance documentation",
           "text": "Standard release: 09:30 UK on the working day before the written exam = 17:30 HKT today. Open the Equity written assessment course and download the advance documentation. The exact assessment-specific filename/link must be taken from the released course; it is not available on this public page. If using an adjusted sitting, follow your own access instructions.",
           "resources": [
-            "courses",
+            "eqWrittenCourse",
             "owe"
           ],
           "units": [],
@@ -563,9 +627,10 @@ study.timeline = {
           "title": "Equity SBA",
           "text": "Start 17:30 HKT (09:30 UK). 20 questions, 45 minutes; a prompt start normally finishes 18:15. First 15 minutes are a launch allowance, with hard close 18:30. Open book and unproctored. Use this date only if the standard sitting applies to you.",
           "resources": [
-            "courses",
+            "eqSbaCourse",
             "sba",
-            "eqUpdate"
+            "eqUpdate",
+            "techSupport"
           ],
           "units": [],
           "time": "17:30–18:15 HKT · hard close 18:30"
@@ -576,8 +641,9 @@ study.timeline = {
           "title": "Equity written examination",
           "text": "Start 21:30 HKT (13:30 UK). Two hours answering; stop writing 23:30 and submit before 23:45 using the actual Word Answer Booklet, filename [SRN]_ETS_Assessment. The final 15 minutes are administration only. Use your own valid adjusted schedule instead if applicable.",
           "resources": [
-            "courses",
-            "owe"
+            "eqWrittenCourse",
+            "owe",
+            "techSupport"
           ],
           "units": [],
           "time": "21:30 start · write until 23:30 · submit before 23:45",
@@ -596,7 +662,8 @@ study.timeline = {
           "text": "For a valid +8 choice: SBA 01:30, written 05:30. For +16: SBA 09:30, written 13:30. These are HKT on 7 November. They delay the UK sitting; they are not merely the normal HKT conversion. Each component may have its own choice. Use your request record and correct ELITE link.",
           "resources": [
             "mail",
-            "courses",
+            "eqSbaCourse",
+            "eqWrittenCourse",
             "sba",
             "owe"
           ],
@@ -672,9 +739,10 @@ study.timeline = {
           "title": "English Legal System SBA",
           "text": "Start 17:30 HKT (09:30 UK). 20 questions, 45 minutes; normally finish 18:15, hard close 18:30. Use the correct SBA course and standard sitting only if it applies. First 15 minutes are a launch allowance, not extra answering time.",
           "resources": [
-            "courses",
+            "elsSbaCourse",
             "sba",
-            "elsUpdate"
+            "elsUpdate",
+            "techSupport"
           ],
           "units": [],
           "time": "17:30–18:15 HKT · hard close 18:30",
@@ -693,7 +761,7 @@ study.timeline = {
           "text": "A valid +8 choice starts at 01:30 HKT today; +16 starts at 09:30 HKT today. Use your own component choice and adjusted ELITE course. Skip these alternate starts if you completed the standard sitting yesterday.",
           "resources": [
             "mail",
-            "courses",
+            "elsSbaCourse",
             "sba"
           ],
           "units": []
@@ -704,10 +772,12 @@ study.timeline = {
           "title": "Check all four components and save evidence",
           "text": "Check the two SBA completion states and both Turnitin receipts. Save files and receipts privately. Report any genuine access/submission problem promptly through the official support route; a browser checklist is not evidence of university submission.",
           "resources": [
-            "courses",
+            "cwAssessment",
+            "eqWrittenCourse",
+            "eqSbaCourse",
+            "elsSbaCourse",
             "mail",
-            "cw",
-            "owe"
+            "techSupport"
           ],
           "units": [],
           "output": "A private folder containing the actual submitted files, receipts and relevant confirmations."
