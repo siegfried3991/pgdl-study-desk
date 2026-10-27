@@ -133,7 +133,7 @@ study.timeline = {
   "checkedAt": "2026-10-28T01:05:00+08:00",
   "latestEmail": "28 October 2026 · 00:18 HKT",
   "summary": "The latest Assessment Office reply directs students to the candidate instructions for the coursework word limit. It does not settle the original-title versus new-paper conflict. The current plan retains that clarification task and the November PDF rules. All four November assessment courses are now linked directly. The ELS coursework Word Answer Booklet is available; the Equity written course currently has no released content. Check academic-conduct completion and the pre-assessment checklist.",
-  "monitor": "Daily mailbox check and website update scheduled for 09:00 HKT through 19 January 2027. Runs need this computer and Codex available, plus working university sign-in. Check the timestamp above for the last successful review.",
+  "monitor": "Daily mailbox check and website update scheduled for 18:00 HKT through 19 January 2027. Runs need this computer and Codex available, plus working university sign-in. Check the timestamp above for the last successful review.",
   "resources": {
     "cw": {
       "label": "November coursework instructions",
