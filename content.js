@@ -1,5 +1,5 @@
 const study = {
-  updated: '26 October 2026',
+  updated: '27 October 2026',
   subjects: {
     els: {name: 'English Legal System & Constitutional Law', short: 'English Legal System', color: 'violet', course: 'https://elite.law.ac.uk/ultra/courses/_69897970_1/outline', guide: 'https://elite.law.ac.uk/ultra/courses/_69897970_1/document/_13365374_1?view=content&state=view', update: 'https://elite.law.ac.uk/ultra/courses/_69895682_1/file/_15840593_1?courseId=_69895682_1'},
     equity: {name: 'Equity & Trusts', short: 'Equity & Trusts', color: 'green', course: 'https://elite.law.ac.uk/ultra/courses/_69918164_1/outline', guide: 'https://elite.law.ac.uk/ultra/courses/_69918164_1/file/_17442112_1?courseId=_69918164_1', update: 'https://elite.law.ac.uk/ultra/courses/_69895682_1/file/_15840594_1?courseId=_69895682_1'}
@@ -8,7 +8,9 @@ const study = {
     library: {label:'ULaw textbook library', url:'https://elite.law.ac.uk/ultra/courses/_69916844_1/outline', type:'University login', why:'Open the assigned textbook through your account. Follow the directed reading within each unit; chapter numbers can change between editions.'},
     handbook: {label:'Student Handbook and Course Information', url:'https://elite.law.ac.uk/ultra/courses/_69895682_1/outline',type:'University login',why:'Assessment guidance, candidate instructions, criteria, practice materials and resitter updates.'},
     timetable: {label:'Official resit schedules',url:'https://elite.law.ac.uk/webapps/blackboard/content/listContent.jsp?course_id=_41214_1&content_id=_12650001_1',type:'University login',why:'Check dates against the latest schedule and your individual registration confirmation.'},
-    proctor: {label:'ULaw proctored assessment guidance',url:'https://elite.law.ac.uk/ultra/courses/_69895682_1/file/_20854467_1?courseId=_69895682_1',type:'University login',why:'Describes Respondus, ID and environment checks and restrictions on digital materials. Confirm applicability to the November resit in the candidate instructions.'},
+    proctor: {label:'Future proctoring guidance — January 2027 onward',url:'https://elite.law.ac.uk/ultra/courses/_69895682_1/file/_20854467_1?courseId=_69895682_1',type:'University login',why:'Future arrangements only. The November 2026 candidate instructions expressly say these resit examinations are not proctored and have no lockdown browser. Do not apply January 2027 restrictions to this November sitting.'},
+    novemberInstructions:{label:'November 2026 candidate instructions',url:'https://elite.law.ac.uk/ultra/courses/_69895682_1/outline',type:'University login',why:'Student Handbook → Assessment Information → Candidate Instructions. The 27 October Assessment Office email attaches separate Coursework, OWE and SBAQ PDFs. These confirm November is open book and unproctored; use the current documents rather than older module formats.'},
+    timeZoneForm:{label:'November 2026 time-zone request form',url:'https://forms.cloud.microsoft/pages/responsepage.aspx?id=8eZDEXRsh0Sw-0hOVesskBxoc0fEdZREpn5oKDtzYGpUREc5SlYwRFUzT0RaNkRURjNSOTFFOEJCVC4u&route=shorturl',type:'University login',why:'Closes 28 October at 17:00 UK time (29 October at 01:00 HKT). Request +8 or +16 hours for individual online exam components; no coursework adjustment. Submitting this form does not register a resit.'},
     sovereignty:{label:'Parliament: parliamentary sovereignty',url:'https://www.parliament.uk/about/how/role/sovereignty/',type:'Public source',why:'Institutional explanation of Parliament’s law-making authority and its constitutional setting.'},
     sovereigntyDetail:{label:'Commons Library: parliamentary sovereignty',url:'https://commonslibrary.parliament.uk/research-briefings/cbp-10377/',type:'Public source',why:'Further reading on orthodox sovereignty, constitutional statutes, interpretation and competing accounts.'},
     miller:{label:'Miller / Cherry [2019] UKSC 41',url:'https://www.bailii.org/uk/cases/UKSC/2019/41.html',type:'Judgment',why:'Read the reasoning on justiciability, parliamentary accountability, prerogative powers and the legal effect of unlawful prorogation.'},
@@ -108,20 +110,20 @@ const study = {
     {tier:'Synthesis',q:'Why is “fairness” insufficient as the sole explanation for a trust or remedy?',a:'Different doctrines have defined elements, property consequences and third-party effects. Establish the applicable doctrine and its facts, then identify the lawful scope of judicial discretion rather than creating a result from sympathy.'}
   ],
   planner:[
-    ['2026-10-26','Confirm the assigned coursework paper and November instructions; outline the task independently. Equity Units 1–2.'],
-    ['2026-10-27','Coursework research and structure. Equity Unit 3; revisit yesterday’s recall prompts.'],
-    ['2026-10-28','Write the coursework in your own words. Equity Unit 4; start an error log.'],
-    ['2026-10-29','Continue coursework. Equity Units 5–6; check registration confirmation separately.'],
+    ['2026-10-26','Read the November instructions and locate the original coursework title; resolve any conflicting individual advice before writing. Equity Units 1–2.'],
+    ['2026-10-27','Resolve the coursework-title conflict with Assessment Office; check the current word-limit rule. Decide whether a time-zone request is useful. Equity Unit 3.'],
+    ['2026-10-28','If needed, submit the time-zone form before 17:00 UK (01:00 HKT on 29 Oct). Write independently once the title is confirmed. Equity Unit 4.'],
+    ['2026-10-29','Continue coursework on the confirmed title. Equity Units 5–6; check any time-zone confirmation and correct ELITE assessment links.'],
     ['2026-10-30','Complete coursework draft. Equity Unit 7; one mixed SBA set.'],
     ['2026-10-31','Edit coursework against criteria and references. Equity Unit 8.'],
     ['2026-11-01','Final independent checks and target coursework submission; save the receipt. Short Equity recall.'],
-    ['2026-11-02','Coursework deadline 17:30 HKT. Verify successful submission; review Equity weak areas.'],
+    ['2026-11-02','Coursework must be submitted before 17:30 HKT; no time-zone adjustment applies. Verify submission; review Equity weak areas.'],
     ['2026-11-03','Timed Equity written practice with specimen Points to Note; mixed SBA questions.'],
     ['2026-11-04','Repair weak areas; rehearse issue spotting and the permitted technical setup.'],
-    ['2026-11-05','Check for Equity advance documentation. Review permitted material and exam instructions.'],
-    ['2026-11-06','Equity SBA and written examination. Follow confirmed individual times.'],
+    ['2026-11-05','Equity advance documentation releases at 17:30 HKT. Read, research and organise Part A issues; keep revision concise and rest.'],
+    ['2026-11-06','Standard times: Equity SBA starts 17:30 HKT; written starts 21:30, stop writing 23:30 and submit before 23:45. Adjust only if your individual request applies.'],
     ['2026-11-07','ELS Units 1–6 mixed SBA practice; explain each wrong answer.'],
     ['2026-11-08','ELS Units 7–9 and resitter updates; one timed 20-question set.'],
-    ['2026-11-09','ELS SBA. Check the confirmed start time and permitted materials.']
+    ['2026-11-09','Standard ELS SBA starts 17:30 HKT; 45 minutes answering. Use a different date/time only if your individual adjustment applies.']
   ]
 };

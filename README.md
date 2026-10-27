@@ -6,9 +6,9 @@ The website includes linked university readings, selected public primary sources
 
 ## Sources and limits
 
-Course organisation and older assessment formats were checked against the authenticated cohort module pages on 26 October 2026. Public primary readings are linked within each unit and the reading room. University reading links require the visitor’s own login. No university textbook, actual assessment paper, student record or credential is redistributed.
+Course organisation was checked against authenticated cohort pages on 26 October 2026. Assessment logistics were updated on 27 October using the November 2026 Coursework, OWE and SBAQ candidate instructions and official time-zone request form. Public primary readings are linked within each unit and the reading room. University reading links require the visitor’s own login. No university textbook, actual assessment paper, student record or credential is redistributed.
 
-Live legislation may include changes beyond the examinable date. The assigned assessment paper, current candidate instructions and applicable resitter updates control. Registration acceptance and November proctoring applicability are not established by this website.
+Live legislation may include changes beyond the examinable date. The assigned assessment paper, current candidate instructions and applicable resitter updates control. The November instructions confirm the examinations are open book and unproctored; proctoring starts in January 2027. Personal registration records remain private. Individual advice conflicting with the published coursework original-title rule must be clarified with Assessment Office. No time-zone adjustment is selected or submitted by this website.
 
 ## Local preview
 
