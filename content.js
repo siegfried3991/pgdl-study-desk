@@ -1,5 +1,5 @@
 const study = {
-  updated: '27 October 2026',
+  updated: '28 October 2026',
   subjects: {
     els: {name: 'English Legal System & Constitutional Law', short: 'English Legal System', color: 'violet', course: 'https://elite.law.ac.uk/ultra/courses/_69897970_1/outline', guide: 'https://elite.law.ac.uk/ultra/courses/_69897970_1/document/_13365374_1?view=content&state=view', update: 'https://elite.law.ac.uk/ultra/courses/_69895682_1/file/_15840593_1?courseId=_69895682_1'},
     equity: {name: 'Equity & Trusts', short: 'Equity & Trusts', color: 'green', course: 'https://elite.law.ac.uk/ultra/courses/_69918164_1/outline', guide: 'https://elite.law.ac.uk/ultra/courses/_69918164_1/file/_17442112_1?courseId=_69918164_1', update: 'https://elite.law.ac.uk/ultra/courses/_69895682_1/file/_15840594_1?courseId=_69895682_1'}
@@ -127,3 +127,633 @@ const study = {
     ['2026-11-09','Standard ELS SBA starts 17:30 HKT; 45 minutes answering. Use a different date/time only if your individual adjustment applies.']
   ]
 };
+
+// Dated requirements and suggested revision are kept separate; no task implies submission.
+study.timeline = {
+  "checkedAt": "2026-10-28T01:05:00+08:00",
+  "latestEmail": "28 October 2026 · 00:18 HKT",
+  "summary": "The latest Assessment Office reply directs students to the candidate instructions for the coursework word limit. It does not settle the original-title versus new-paper conflict. The current plan retains that clarification task and the November PDF rules.",
+  "monitor": "Daily mailbox check and website update scheduled for 09:00 HKT through 19 January 2027. Runs need this computer and Codex available, plus working university sign-in. Check the timestamp above for the last successful review.",
+  "resources": {
+    "cw": {
+      "label": "November coursework instructions",
+      "url": "https://outlook.cloud.microsoft/mail/inbox",
+      "file": "2627 PgDL MA Assessments - Coursework - Candidate instructions - Nov 26.pdf",
+      "note": "Email attachment: Assessment Office, 27 October, “Important: Candidate Instructions for the October/November Resit Assessment Period”. Open the university inbox and find this message. This button opens mail, not a direct PDF download."
+    },
+    "owe": {
+      "label": "November written-exam instructions",
+      "url": "https://outlook.cloud.microsoft/mail/inbox",
+      "file": "2627 PgDL MA Assessments - OWE - Candidate instructions - Nov 26.pdf",
+      "note": "Same 27 October candidate-instructions email; open the OWE attachment. This button opens mail, not a direct PDF download."
+    },
+    "sba": {
+      "label": "November SBA instructions",
+      "url": "https://outlook.cloud.microsoft/mail/inbox",
+      "file": "2627 PgDL MA Assessments - SBAQ - Candidate instructions - Nov 26.pdf",
+      "note": "Same 27 October candidate-instructions email; open the SBAQ attachment. This button opens mail, not a direct PDF download."
+    },
+    "mail": {
+      "label": "University inbox",
+      "url": "https://outlook.cloud.microsoft/mail/inbox",
+      "note": "Use your university account. Check replies and any individual adjustment or access instructions."
+    },
+    "courses": {
+      "label": "ELITE assessment courses",
+      "url": "https://elite.law.ac.uk/ultra/course",
+      "note": "Find your November resit courses. The SBA and written/coursework components use separate courses. Choose standard or adjusted links according to your own valid request; this is the course list, not a submission box."
+    },
+    "mock": {
+      "label": "Practice Word Answer Booklet",
+      "url": "https://elite.law.ac.uk/ultra/courses/_69895682_1/file/_13854720_1?courseId=_69895682_1",
+      "file": "pgdlma_answer_booklet_mock_assessment.docx",
+      "note": "University login. For practice only; use the actual assessment-specific Answer Booklet for the real submission."
+    },
+    "criteria": {
+      "label": "Level 7 assessment criteria",
+      "url": "https://elite.law.ac.uk/ultra/courses/_69895682_1/file/_12678752_1?courseId=_69895682_1",
+      "note": "University login. Check analysis, application, structure and authority against the criteria."
+    },
+    "writing": {
+      "label": "Written-exam technique recording",
+      "url": "https://eu-lti.bbcollab.com/recording/1f731c4a29134185946cf92e61a269c3",
+      "note": "“Unlocking Success Series – Online Written Examination Assessment Technique Recording”, linked in your handbook."
+    },
+    "notes": {
+      "label": "All topic notes",
+      "url": "#notes",
+      "note": "Original revision notes. Open the linked unit and follow its directed reading."
+    },
+    "practice": {
+      "label": "Practice and explain",
+      "url": "#practice",
+      "note": "Original revision exercises and six-question warm-up; not an official 20-question mock."
+    },
+    "recall": {
+      "label": "Recall cards",
+      "url": "#recall",
+      "note": "Try the answer from memory before revealing it."
+    },
+    "elsCourse": {
+      "label": "ELS course: directed reading and SBA practice",
+      "url": "https://elite.law.ac.uk/ultra/courses/_69897970_1/outline",
+      "note": "University login. Open the named unit’s Prepare, Engage and Consolidate tasks."
+    },
+    "eqCourse": {
+      "label": "Equity course: reading, specimen and Points to Note",
+      "url": "https://elite.law.ac.uk/ultra/courses/_69918164_1/outline",
+      "note": "University login. Open unit reading / Consolidate; locate the specimen assessment and Points to Note."
+    },
+    "elsGuide": {
+      "label": "ELS module assessment guide",
+      "note": "University login. Read alongside the current November candidate instructions; current sitting instructions control its format."
+    },
+    "eqGuide": {
+      "label": "Equity module assessment guide",
+      "note": "University login. Read alongside the current November candidate instructions; current sitting instructions control its format."
+    },
+    "elsUpdate": {
+      "label": "ELS resitter law update",
+      "note": "University login. Read alongside the current November candidate instructions; current sitting instructions control its format."
+    },
+    "eqUpdate": {
+      "label": "Equity resitter law update",
+      "note": "University login. Read alongside the current November candidate instructions; current sitting instructions control its format."
+    }
+  },
+  "days": [
+    {
+      "date": "2026-10-28",
+      "title": "Clarify the paper; choose your exam times",
+      "tasks": [
+        {
+          "id": "title",
+          "kind": "Action needed",
+          "title": "Get the coursework title clarified",
+          "text": "The latest reply refers you to the candidate instructions for word count. It does not reconcile the registration email promising a new paper with the November rule requiring the original title. Ask Assessment Office to confirm the exact ELS title and any individual word-limit exception before committing to your answer.",
+          "resources": [
+            "mail",
+            "cw",
+            "elsGuide"
+          ],
+          "units": [],
+          "output": "Written confirmation of the applicable title; keep it with your assessment files."
+        },
+        {
+          "id": "timezone",
+          "kind": "Optional deadline",
+          "title": "Decide whether to request delayed exam starts",
+          "text": "If needed, submit one form selecting each relevant component before 17:00 UK on 28 October (01:00 HKT on 29 October). No coursework adjustment. No time-zone request is verified here.",
+          "resources": [
+            "timeZoneForm",
+            "sba",
+            "owe"
+          ],
+          "units": [],
+          "time": "Closes 29 Oct · 01:00 HKT",
+          "output": "Save the submitted form/acknowledgment and component choices; use the form’s rules for accommodation."
+        },
+        {
+          "id": "equity-basics",
+          "kind": "Suggested study",
+          "title": "Equity foundations in two short blocks",
+          "text": "50 minutes: trusts, certainty, formalities and constitution. 25 minutes: charitable purposes and public benefit. Retrieve first if already reviewed; read the assigned unit material only for the gaps.",
+          "resources": [
+            "eqCourse",
+            "lpa",
+            "mcphail",
+            "publicBenefit"
+          ],
+          "units": [
+            "eq-1",
+            "eq-2",
+            "eq-3"
+          ],
+          "output": "One page: trust-creation checklist plus your three weakest distinctions."
+        }
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Build the coursework argument; cover implied trusts",
+      "tasks": [
+        {
+          "id": "cw-outline",
+          "kind": "Suggested study",
+          "title": "Plan and begin the confirmed coursework",
+          "text": "Only after the title is confirmed: use two 50-minute blocks for your independent argument, primary authorities and a clear outline. If still unresolved, follow up rather than assume which paper applies. The general published rule is 2,500 words for titles set from September 2023, with a 10% tolerance buffer.",
+          "resources": [
+            "cw",
+            "elsGuide",
+            "criteria"
+          ],
+          "units": [],
+          "output": "Your own outline and authority table; no assessed text generated here."
+        },
+        {
+          "id": "equity-implied",
+          "kind": "Suggested study",
+          "title": "Implied trusts and estoppel",
+          "text": "One 50-minute block: compare resulting trusts, common-intention constructive trusts and proprietary estoppel; practise choosing the route from the facts.",
+          "resources": [
+            "eqCourse",
+            "jones",
+            "guest"
+          ],
+          "units": [
+            "eq-4"
+          ],
+          "output": "A route comparison and one independently answered short scenario."
+        },
+        {
+          "id": "access-check",
+          "kind": "Required preparation",
+          "title": "Check your registered courses and timing links",
+          "text": "Find all four components and verify access to the correct November standard or adjusted course. Record your own applicable starts in your calendar; do not assume an adjustment from resit registration alone.",
+          "resources": [
+            "courses",
+            "mail",
+            "sba",
+            "owe"
+          ],
+          "units": []
+        }
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "title": "Complete a draft; compare duties",
+      "tasks": [
+        {
+          "id": "cw-draft",
+          "kind": "Suggested study",
+          "title": "Finish your independent coursework draft",
+          "text": "Two 50-minute blocks on the confirmed title. Check each legal proposition against a source; keep a separate list of gaps to repair.",
+          "resources": [
+            "cw",
+            "criteria",
+            "elsCourse"
+          ],
+          "units": [],
+          "output": "A complete draft with citations and a short repair list."
+        },
+        {
+          "id": "duties",
+          "kind": "Suggested study",
+          "title": "Trustee powers and fiduciary loyalty",
+          "text": "One 50-minute block comparing investment duties, care, advice, conflicts and unauthorised profits. Use short facts to distinguish compensation from an account of profits.",
+          "resources": [
+            "eqCourse",
+            "ta2000",
+            "fhr"
+          ],
+          "units": [
+            "eq-5",
+            "eq-6"
+          ],
+          "output": "A powers/duties checklist and two explained distinctions."
+        }
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "title": "Edit the coursework; cover remedies",
+      "tasks": [
+        {
+          "id": "cw-edit",
+          "kind": "Suggested study",
+          "title": "Edit for analysis and accurate references",
+          "text": "Two 50-minute blocks: test the answer against the question and Level 7 criteria, remove unsupported assertions, check citations and the applicable word count.",
+          "resources": [
+            "cw",
+            "criteria"
+          ],
+          "units": [],
+          "output": "A revised Word draft, bibliography and final-check list."
+        },
+        {
+          "id": "remedies",
+          "kind": "Suggested study",
+          "title": "Remedies and third-party claims",
+          "text": "One 50-minute block: separate compensation, profit stripping, proprietary claims, tracing, knowing receipt and dishonest assistance.",
+          "resources": [
+            "eqCourse",
+            "aib",
+            "foskett",
+            "byers",
+            "ivey"
+          ],
+          "units": [
+            "eq-7",
+            "eq-8"
+          ],
+          "output": "A defendant-by-defendant remedies map."
+        }
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Submit early if ready",
+      "tasks": [
+        {
+          "id": "early-submit",
+          "kind": "Suggested target",
+          "title": "Aim to submit ELS coursework today",
+          "text": "Finish independent checks, use the actual assessment Answer Booklet and correct Turnitin box, and save the receipt. Filename: [SRN]_ECN_Assessment; use your Student Reference Number, not your candidate number. This early target does not change tomorrow’s official deadline.",
+          "resources": [
+            "courses",
+            "cw",
+            "criteria"
+          ],
+          "units": [],
+          "output": "Saved submitted file and Turnitin receipt; a tick here alone does not prove submission."
+        },
+        {
+          "id": "eq-light",
+          "kind": "Suggested study",
+          "title": "Light Equity recall",
+          "text": "25–40 minutes: retrieve the trust-creation checklist, duties and remedies from memory. Repair only the weakest two areas.",
+          "resources": [
+            "recall",
+            "eqCourse"
+          ],
+          "units": [
+            "eq-2",
+            "eq-5",
+            "eq-8"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "title": "ELS coursework deadline",
+      "tasks": [
+        {
+          "id": "cw-due",
+          "kind": "Official deadline",
+          "title": "Submit before 17:30 HKT",
+          "text": "Final official deadline: 09:30 UK / 17:30 HKT. Coursework is submitted through Turnitin, not email. No time-zone adjustment applies. Check the correct box and receipt; avoid replacing an on-time file with a late version.",
+          "resources": [
+            "courses",
+            "cw"
+          ],
+          "units": [],
+          "time": "Before 17:30 HKT",
+          "output": "Open and retain the submission receipt and final Word file."
+        },
+        {
+          "id": "eq-repair",
+          "kind": "Suggested study",
+          "title": "One Equity repair block",
+          "text": "After submission, spend up to 50 minutes on your weakest unit and 20 minutes on Consolidate SBA questions; explain why each wrong option is wrong.",
+          "resources": [
+            "eqCourse",
+            "eqUpdate",
+            "practice"
+          ],
+          "units": []
+        }
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Rehearse the written exam",
+      "tasks": [
+        {
+          "id": "written-mock",
+          "kind": "Suggested study",
+          "title": "A realistic Equity specimen attempt",
+          "text": "If you can protect the time, use the course specimen for 2 hours plus 15 minutes administration. Otherwise practise one section for 60 minutes and schedule the rest. Compare with Points to Note only after answering. November written format: compulsory Part A (60%) plus one of two Part B questions (40%); 3,500 words overall with a 10% tolerance buffer.",
+          "resources": [
+            "eqCourse",
+            "owe",
+            "mock",
+            "writing"
+          ],
+          "units": [],
+          "output": "An error log and a timed Word file; the practice booklet is not the real assessment booklet."
+        },
+        {
+          "id": "sba-errors",
+          "kind": "Suggested study",
+          "title": "Repair your SBA errors",
+          "text": "20 minutes: revisit previous mistakes and retrieve the governing rule before looking at the answer.",
+          "resources": [
+            "eqCourse",
+            "recall"
+          ],
+          "units": []
+        }
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Repair gaps and check the setup",
+      "tasks": [
+        {
+          "id": "technical",
+          "kind": "Required preparation",
+          "title": "Rehearse saving and uploading a local Word file",
+          "text": "Use Chrome or Firefox, a local Microsoft Word file and the Assessment Practice Area available through ELITE. Check the actual Answer Booklet, SRN, internet and backup connection. November is open book and unproctored; no Respondus is required for these sittings.",
+          "resources": [
+            "courses",
+            "mock",
+            "owe",
+            "sba"
+          ],
+          "units": [],
+          "output": "Working local Word save, upload rehearsal and a short authority index."
+        },
+        {
+          "id": "repair",
+          "kind": "Suggested study",
+          "title": "Correct the two biggest mock weaknesses",
+          "text": "Two 40-minute blocks: redo missed issues from fresh facts, then check primary sources and the resitter update. Stop adding long notes; keep your index searchable.",
+          "resources": [
+            "eqCourse",
+            "eqUpdate",
+            "practice",
+            "recall"
+          ],
+          "units": []
+        }
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "title": "Download and prepare the Equity advance material",
+      "tasks": [
+        {
+          "id": "advance",
+          "kind": "Official release",
+          "title": "Get the Equity advance documentation",
+          "text": "Standard release: 09:30 UK on the working day before the written exam = 17:30 HKT today. Open the Equity written assessment course and download the advance documentation. The exact assessment-specific filename/link must be taken from the released course; it is not available on this public page. If using an adjusted sitting, follow your own access instructions.",
+          "resources": [
+            "courses",
+            "owe"
+          ],
+          "units": [],
+          "time": "17:30 HKT · standard release",
+          "output": "Save the advance document locally and read it carefully."
+        },
+        {
+          "id": "advance-study",
+          "kind": "Suggested study",
+          "title": "Organise Part A issues and authorities",
+          "text": "Use two 40-minute blocks to read, research and organise the advance facts against the relevant Equity units. Review the current instructions and prepare your own concise index; keep assessed answers independent. Rest before tomorrow.",
+          "resources": [
+            "eqCourse",
+            "eqGuide",
+            "eqUpdate",
+            "notes"
+          ],
+          "units": [],
+          "output": "Your own factual chronology, issue checklist and authority index."
+        }
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "title": "Equity exam day — standard sitting",
+      "tasks": [
+        {
+          "id": "eq-sba",
+          "kind": "Official assessment",
+          "title": "Equity SBA",
+          "text": "Start 17:30 HKT (09:30 UK). 20 questions, 45 minutes; a prompt start normally finishes 18:15. First 15 minutes are a launch allowance, with hard close 18:30. Open book and unproctored. Use this date only if the standard sitting applies to you.",
+          "resources": [
+            "courses",
+            "sba",
+            "eqUpdate"
+          ],
+          "units": [],
+          "time": "17:30–18:15 HKT · hard close 18:30"
+        },
+        {
+          "id": "eq-written",
+          "kind": "Official assessment",
+          "title": "Equity written examination",
+          "text": "Start 21:30 HKT (13:30 UK). Two hours answering; stop writing 23:30 and submit before 23:45 using the actual Word Answer Booklet, filename [SRN]_ETS_Assessment. The final 15 minutes are administration only. Use your own valid adjusted schedule instead if applicable.",
+          "resources": [
+            "courses",
+            "owe"
+          ],
+          "units": [],
+          "time": "21:30 start · write until 23:30 · submit before 23:45",
+          "output": "Keep the submitted Word file and Turnitin receipt."
+        }
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "title": "Recover, then switch to ELS",
+      "tasks": [
+        {
+          "id": "eq-adjusted",
+          "kind": "Conditional assessment",
+          "title": "Only if using delayed Equity starts",
+          "text": "For a valid +8 choice: SBA 01:30, written 05:30. For +16: SBA 09:30, written 13:30. These are HKT on 7 November. They delay the UK sitting; they are not merely the normal HKT conversion. Each component may have its own choice. Use your request record and correct ELITE link.",
+          "resources": [
+            "mail",
+            "courses",
+            "sba",
+            "owe"
+          ],
+          "units": [],
+          "output": "Follow your applicable paper’s duration and submission rules; skip these alternate starts if you used the standard sitting."
+        },
+        {
+          "id": "els-core",
+          "kind": "Suggested study",
+          "title": "ELS Units 1–6 with mixed SBA practice",
+          "text": "Once Equity is finished and you have rested, use two 45-minute blocks on sources, interpretation, precedent, constitutional principles, sovereignty, privilege and devolution. Retrieve first; spend more time on wrong answers than on rereading.",
+          "resources": [
+            "elsCourse",
+            "miller",
+            "sovereigntyDetail",
+            "recall"
+          ],
+          "units": [
+            "els-1",
+            "els-2",
+            "els-3",
+            "els-4",
+            "els-5",
+            "els-6"
+          ],
+          "output": "A short error log plus a one-page constitutional route map."
+        }
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "title": "ELS updates and a timed SBA set",
+      "tasks": [
+        {
+          "id": "els-update",
+          "kind": "Required preparation",
+          "title": "Read the ELS resitter update and directed chapter",
+          "text": "Check the examinable law date and the assigned textbook material, including the update’s chapter 9 direction. Keep retained/assimilated law and commencement distinct.",
+          "resources": [
+            "elsUpdate",
+            "elsCourse",
+            "euwa",
+            "reul"
+          ],
+          "units": [
+            "els-7",
+            "els-8",
+            "els-9"
+          ]
+        },
+        {
+          "id": "els-mock",
+          "kind": "Suggested study",
+          "title": "A course-based 20-question set in 45 minutes",
+          "text": "Use official Consolidate/specimen SBA questions where available; the site’s six-question warm-up is only an extra exercise. Review every mistake and stop heavy revision early.",
+          "resources": [
+            "elsCourse",
+            "sba",
+            "practice"
+          ],
+          "units": [],
+          "output": "One timed set and a final list of five distinctions to retrieve."
+        }
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "title": "ELS SBA — standard sitting",
+      "tasks": [
+        {
+          "id": "els-sba",
+          "kind": "Official assessment",
+          "title": "English Legal System SBA",
+          "text": "Start 17:30 HKT (09:30 UK). 20 questions, 45 minutes; normally finish 18:15, hard close 18:30. Use the correct SBA course and standard sitting only if it applies. First 15 minutes are a launch allowance, not extra answering time.",
+          "resources": [
+            "courses",
+            "sba",
+            "elsUpdate"
+          ],
+          "units": [],
+          "time": "17:30–18:15 HKT · hard close 18:30",
+          "output": "Check the assessment shows submitted/completed in ELITE."
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "title": "Adjusted ELS sitting or post-exam checks",
+      "tasks": [
+        {
+          "id": "els-adjusted",
+          "kind": "Conditional assessment",
+          "title": "Only if using a delayed ELS start",
+          "text": "A valid +8 choice starts at 01:30 HKT today; +16 starts at 09:30 HKT today. Use your own component choice and adjusted ELITE course. Skip these alternate starts if you completed the standard sitting yesterday.",
+          "resources": [
+            "mail",
+            "courses",
+            "sba"
+          ],
+          "units": []
+        },
+        {
+          "id": "archive",
+          "kind": "Required preparation",
+          "title": "Check all four components and save evidence",
+          "text": "Check the two SBA completion states and both Turnitin receipts. Save files and receipts privately. Report any genuine access/submission problem promptly through the official support route; a browser checklist is not evidence of university submission.",
+          "resources": [
+            "courses",
+            "mail",
+            "cw",
+            "owe"
+          ],
+          "units": [],
+          "output": "A private folder containing the actual submitted files, receipts and relevant confirmations."
+        }
+      ]
+    },
+    {
+      "date": "2026-12-07",
+      "title": "Provisional results",
+      "tasks": [
+        {
+          "id": "provisional",
+          "kind": "Official milestone",
+          "title": "Check the provisional results release",
+          "text": "Scheduled release: 13:30 UK / 21:30 HKT. Read the result guidance and any individual conditions. These are provisional results, not a final award or proof of eligibility for June graduation.",
+          "resources": [
+            "mail",
+            "courses",
+            "owe"
+          ],
+          "units": [],
+          "time": "21:30 HKT",
+          "output": "Save the results privately and identify any outstanding component or required next action."
+        }
+      ]
+    },
+    {
+      "date": "2027-01-19",
+      "title": "Final results",
+      "tasks": [
+        {
+          "id": "final-results",
+          "kind": "Official milestone",
+          "title": "Check the final results publication",
+          "text": "Scheduled release: 14:00 UK / 22:00 HKT. Verify the official record and any remaining modules, attempt limits and completion deadline with the university before planning further resits. Passing these two subjects alone does not complete all outstanding modules.",
+          "resources": [
+            "mail",
+            "courses",
+            "owe"
+          ],
+          "units": [],
+          "time": "22:00 HKT",
+          "output": "Your official updated record and a verified plan for any remaining modules."
+        }
+      ]
+    }
+  ]
+};
+for (const [key,subject,field] of [["elsGuide","els","guide"],["eqGuide","equity","guide"],["elsUpdate","els","update"],["eqUpdate","equity","update"]]) study.timeline.resources[key].url=study.subjects[subject][field];

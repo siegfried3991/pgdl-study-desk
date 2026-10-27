@@ -4,9 +4,15 @@ Original revision notes for English Legal System and Constitutional Law and Equi
 
 The website includes linked university readings, selected public primary sources, 17 recall cards, 13 practice exercises, two interactive issue-spotting aids, a concept map and browser-local revision progress. The published material is an independent revision aid, not an official university publication.
 
+The default daily timeline has 31 dated actions across 28 October–10 November and the December/January results milestones. Each action pairs its task with readings, protected university links and exact document filenames where known. Every dated card offers an original downloadable text checklist. Official requirements, suggested study and conditional time-zone sittings are labelled separately. Completion ticks are browser reminders, not verified submissions.
+
 ## Sources and limits
 
 Course organisation was checked against authenticated cohort pages on 26 October 2026. Assessment logistics were updated on 27 October using the November 2026 Coursework, OWE and SBAQ candidate instructions and official time-zone request form. Public primary readings are linked within each unit and the reading room. University reading links require the visitor’s own login. No university textbook, actual assessment paper, student record or credential is redistributed.
+
+The mailbox was reviewed again on 28 October. The latest reply refers to the candidate instructions for word count and leaves the original-title conflict unresolved. The three November PDFs are email attachments; timeline links explicitly open the university inbox and show the exact filename and retrieval route, rather than implying a direct PDF download. The actual assessment-specific advance document and Answer Booklet must be taken from the released course. The linked mock booklet is for practice only.
+
+A local Codex daily check is scheduled for 09:00 HKT through 19 January 2027. It needs the computer/app and authenticated university browser session to remain available. The timeline records the last successful review, independently of page visits, and is not a live mailbox feed. Automation configuration and private correspondence remain outside this repository.
 
 Live legislation may include changes beyond the examinable date. The assigned assessment paper, current candidate instructions and applicable resitter updates control. The November instructions confirm the examinations are open book and unproctored; proctoring starts in January 2027. Personal registration records remain private. Individual advice conflicting with the published coursework original-title rule must be clarified with Assessment Office. No time-zone adjustment is selected or submitted by this website.
 
