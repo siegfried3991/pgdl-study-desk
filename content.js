@@ -1,5 +1,5 @@
 const study = {
-  updated: '28 October 2026',
+  updated: '29 October 2026',
   subjects: {
     els: {name: 'English Legal System & Constitutional Law', short: 'English Legal System', color: 'violet', course: 'https://elite.law.ac.uk/ultra/courses/_69897970_1/outline', guide: 'https://elite.law.ac.uk/ultra/courses/_69897970_1/document/_13365374_1?view=content&state=view', update: 'https://elite.law.ac.uk/ultra/courses/_69895682_1/file/_15840593_1?courseId=_69895682_1'},
     equity: {name: 'Equity & Trusts', short: 'Equity & Trusts', color: 'green', course: 'https://elite.law.ac.uk/ultra/courses/_69918164_1/outline', guide: 'https://elite.law.ac.uk/ultra/courses/_69918164_1/file/_17442112_1?courseId=_69918164_1', update: 'https://elite.law.ac.uk/ultra/courses/_69895682_1/file/_15840594_1?courseId=_69895682_1'}
@@ -130,9 +130,9 @@ const study = {
 
 // Dated requirements and suggested revision are kept separate; no task implies submission.
 study.timeline = {
-  "checkedAt": "2026-10-28T01:05:00+08:00",
+  "checkedAt": "2026-10-29T02:04:33+08:00",
   "latestEmail": "28 October 2026 · 00:18 HKT",
-  "summary": "The latest Assessment Office reply directs students to the candidate instructions for the coursework word limit. It does not settle the original-title versus new-paper conflict. The current plan retains that clarification task and the November PDF rules. All four November assessment courses are now linked directly. The ELS coursework Word Answer Booklet is available; the Equity written course currently has no released content. Check academic-conduct completion and the pre-assessment checklist.",
+  "summary": "University mailbox reviewed on 29 October: no newer assessment instructions were found in the recent-mail search. The latest relevant reply remains 28 October at 00:18 HKT and does not settle the coursework-title conflict. The time-zone request window closed on 29 October at 01:00 HKT. Use standard exam starts unless a valid component-specific delayed request applies; this check does not verify any request or submission.",
   "monitor": "Daily mailbox check and website update scheduled for 18:00 HKT through 19 January 2027. Runs need this computer and Codex available, plus working university sign-in. Check the timestamp above for the last successful review.",
   "resources": {
     "cw": {
@@ -260,6 +260,11 @@ study.timeline = {
       "label": "Official technical-issue instructions",
       "url": "https://ulaw365.sharepoint.com/sites/StudentInformationCommunication/SitePages/Preparing%20for%20your%20Assessments.aspx#what-to-do-if-there-is-a-technical-issue-during-an-online-assessment",
       "note": "University login. Read the reporting route before the sitting and follow it promptly if a genuine technical problem occurs."
+    },
+    "timeZoneForm": {
+      "label": "Time-zone request form — deadline passed",
+      "url": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=8eZDEXRsh0Sw-0hOVesskBxoc0fEdZREpn5oKDtzYGpUREc5SlYwRFUzT0RaNkRURjNSOTFFOEJCVC4u&route=shorturl",
+      "note": "The published window closed 28 October at 17:00 UK / 29 October at 01:00 HKT. This is a reference to the original form and its rules, not an invitation to make a late application. A valid request record is separate from resit registration."
     }
   },
   "days": [
@@ -283,17 +288,17 @@ study.timeline = {
         },
         {
           "id": "timezone",
-          "kind": "Optional deadline",
-          "title": "Decide whether to request delayed exam starts",
-          "text": "If needed, submit one form selecting each relevant component before 17:00 UK on 28 October (01:00 HKT on 29 October). No coursework adjustment. No time-zone request is verified here.",
+          "kind": "Closed deadline",
+          "title": "Time-zone application window has closed",
+          "text": "The optional form deadline was 28 October at 17:00 UK / 29 October at 01:00 HKT. The window has now closed. If you submitted a request, retain your form record and component choices and follow the accommodation rules. No submission is verified here. Resit registration alone is not a time-zone request.",
           "resources": [
             "timeZoneForm",
             "sba",
             "owe"
           ],
           "units": [],
-          "time": "Closes 29 Oct · 01:00 HKT",
-          "output": "Save the submitted form/acknowledgment and component choices; use the form’s rules for accommodation."
+          "time": "Closed 29 Oct · 01:00 HKT",
+          "output": "Your own saved submission/acknowledgment and component choices, if you applied. Do not treat this checklist as proof."
         },
         {
           "id": "equity-basics",
@@ -334,10 +339,11 @@ study.timeline = {
         },
         {
           "id": "cw-outline",
-          "kind": "Suggested study",
-          "title": "Plan and begin the confirmed coursework",
-          "text": "Only after the title is confirmed: use two 50-minute blocks for your independent argument, primary authorities and a clear outline. If still unresolved, follow up rather than assume which paper applies. The general published rule is 2,500 words for titles set from September 2023, with a 10% tolerance buffer.",
+          "kind": "Action needed",
+          "title": "Clarify the title, then plan the coursework",
+          "text": "No later written clarification was found in the mailbox check. Follow up with Assessment Office for the exact ELS coursework title and any individual word-limit exception. The latest reply points to candidate instructions but does not reconcile the original-title rule with the promise of a new paper. Only after the title is confirmed, use two 50-minute blocks for your independent argument, primary authorities and outline. The general November rule is 2,500 words for titles set from September 2023, with a 10% tolerance buffer.",
           "resources": [
+            "mail",
             "cw",
             "cwBooklet",
             "criteria"
@@ -363,14 +369,15 @@ study.timeline = {
         {
           "id": "access-check",
           "kind": "Required preparation",
-          "title": "Check your registered courses and timing links",
-          "text": "Find all four components and verify access to the correct November standard or adjusted course. Record your own applicable starts in your calendar; do not assume an adjustment from resit registration alone.",
+          "title": "Verify course access and any time-zone request record",
+          "text": "The time-zone request window closed today at 01:00 HKT. If you applied, check your saved record and component choices; the recent mail reviewed contains no newer adjustment instructions. Find all four November assessment courses and use the applicable standard or adjusted links. Do not assume an adjustment from resit registration alone, and do not infer that no request was submitted merely because no email acknowledgment was found.",
           "resources": [
             "cwAssessment",
             "eqWrittenCourse",
             "eqSbaCourse",
             "elsSbaCourse",
-            "mail"
+            "mail",
+            "timeZoneForm"
           ],
           "units": []
         }
