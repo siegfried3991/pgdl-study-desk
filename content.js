@@ -130,7 +130,7 @@ const study = {
 
 // Dated requirements and suggested revision are kept separate; no task implies submission.
 study.timeline = {
-  "checkedAt": "2026-10-29T02:04:33+08:00",
+  "checkedAt": "2026-10-29T22:31:27+08:00",
   "latestEmail": "28 October 2026 · 00:18 HKT",
   "summary": "University mailbox reviewed on 29 October: no newer assessment instructions were found in the recent-mail search. The latest relevant reply remains 28 October at 00:18 HKT and does not settle the coursework-title conflict. The time-zone request window closed on 29 October at 01:00 HKT. Use standard exam starts unless a valid component-specific delayed request applies; this check does not verify any request or submission.",
   "monitor": "Daily mailbox check and website update scheduled for 18:00 HKT through 19 January 2027. Runs need this computer and Codex available, plus working university sign-in. Check the timestamp above for the last successful review.",
