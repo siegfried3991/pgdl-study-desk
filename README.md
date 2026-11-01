@@ -23,3 +23,5 @@ Serve this directory with a static HTTP server and open `index.html`. No build, 
 ## Publishing
 
 GitHub Pages serves the `main` branch at the repository root. Publish only `index.html`, `style.css`, `app.js`, `content.js`, `review-mode.js` and this README. Local build notes and QA files are not part of the public repository.
+
+On 1 November, ELITE exposed the original six-page May 2024 ELS coursework paper in the 2023/2024 assessment course. The timeline links to that authenticated file and to the separate current November submission course. The paper and its question text are not copied into this repository. This discovery does not resolve conflicting individual advice about a new paper. The current ELITE submission area again displays 2 November 17:30 HKT. The mailbox still requires sign-in, so its last-successful-check timestamp remains unchanged.

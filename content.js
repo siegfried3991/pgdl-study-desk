@@ -1,5 +1,5 @@
 const study = {
-  updated: '29 October 2026',
+  updated: '1 November 2026',
   subjects: {
     els: {name: 'English Legal System & Constitutional Law', short: 'English Legal System', color: 'violet', course: 'https://elite.law.ac.uk/ultra/courses/_69897970_1/outline', guide: 'https://elite.law.ac.uk/ultra/courses/_69897970_1/document/_13365374_1?view=content&state=view', update: 'https://elite.law.ac.uk/ultra/courses/_69895682_1/file/_15840593_1?courseId=_69895682_1'},
     equity: {name: 'Equity & Trusts', short: 'Equity & Trusts', color: 'green', course: 'https://elite.law.ac.uk/ultra/courses/_69918164_1/outline', guide: 'https://elite.law.ac.uk/ultra/courses/_69918164_1/file/_17442112_1?courseId=_69918164_1', update: 'https://elite.law.ac.uk/ultra/courses/_69895682_1/file/_15840594_1?courseId=_69895682_1'}
@@ -132,7 +132,7 @@ const study = {
 study.timeline = {
   "checkedAt": "2026-10-29T22:31:27+08:00",
   "latestEmail": "28 October 2026 · 00:18 HKT",
-  "summary": "University mailbox reviewed on 29 October: no newer assessment instructions were found in the recent-mail search. The latest relevant reply remains 28 October at 00:18 HKT and does not settle the coursework-title conflict. The time-zone request window closed on 29 October at 01:00 HKT. Use standard exam starts unless a valid component-specific delayed request applies; this check does not verify any request or submission.",
+  "summary": "Last successful university mailbox review: 29 October. The latest reviewed assessment reply remains 28 October at 00:18 HKT. The attempted check could not be completed because university mail requires sign-in; no newer-mail conclusion is possible. ELITE was checked on 1 November: the original May 2024 ELS coursework paper has been located and linked below; the November submission area displays 2 November at 17:30 HKT. Finding the original paper does not settle conflicting individual advice about a new paper. No submission or time-zone request is verified.",
   "monitor": "Daily mailbox check and website update scheduled for 18:00 HKT through 19 January 2027. Runs need this computer and Codex available, plus working university sign-in. Check the timestamp above for the last successful review.",
   "resources": {
     "cw": {
@@ -265,6 +265,17 @@ study.timeline = {
       "label": "Time-zone request form — deadline passed",
       "url": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=8eZDEXRsh0Sw-0hOVesskBxoc0fEdZREpn5oKDtzYGpUREc5SlYwRFUzT0RaNkRURjNSOTFFOEJCVC4u&route=shorturl",
       "note": "The published window closed 28 October at 17:00 UK / 29 October at 01:00 HKT. This is a reference to the original form and its rules, not an invitation to make a late application. A valid request record is separate from resit registration."
+    },
+    "originalCw": {
+      "label": "Original May 2024 ELS coursework paper",
+      "url": "https://elite.law.ac.uk/ultra/courses/_69902932_1/file/_14221705_1?courseId=_69902932_1",
+      "file": "Coursework Assessment - Coursework (six-page PDF; ELITE display title)",
+      "note": "Located in ELITE on 1 November: Assessment - PgDL/MA Law (Conversion & SQE) - English Legal System and Constitutional Law - Term 2 - 2023/2024 → Your Assessment → Coursework. This is the original May 2024 paper, not a newly issued November paper. The old deadline printed on it is historical. Read with the current November instructions and resolve any conflicting individual advice with Assessment Office. The document stays behind university sign-in."
+    },
+    "originalCwCourse": {
+      "label": "Original ELS assessment course — 2023/2024",
+      "url": "https://elite.law.ac.uk/ultra/courses/_69902932_1/outline",
+      "note": "University login. Your Assessment → Coursework → Coursework Assessment - Coursework. The current November submission box is in the separate November resit course."
     }
   },
   "days": [
@@ -458,21 +469,23 @@ study.timeline = {
     },
     {
       "date": "2026-11-01",
-      "title": "Submit early if ready",
+      "title": "Original paper located; finish independent checks",
       "tasks": [
         {
           "id": "early-submit",
           "kind": "Suggested target",
           "title": "Aim to submit ELS coursework today",
-          "text": "Finish independent checks, use the actual assessment Answer Booklet and correct Turnitin box, and save the receipt. Filename: [SRN]_ECN_Assessment; use your Student Reference Number, not your candidate number. This early target does not change tomorrow’s official deadline.",
+          "text": "The original six-page May 2024 paper was located in ELITE today; open the protected link. This does not settle the conflict with individual advice about a new paper. Resolve the applicable title before finalising your independent answer. Use the actual November Answer Booklet and current November Turnitin box, not the old May submission box. Filename: [SRN]_ECN_Assessment. Aim to submit early and save the actual receipt; the official deadline remains before 2 November 17:30 HKT.",
           "resources": [
+            "originalCw",
+            "originalCwCourse",
             "cwAssessment",
             "cwBooklet",
             "cw",
             "criteria"
           ],
           "units": [],
-          "output": "Saved submitted file and Turnitin receipt; a tick here alone does not prove submission."
+          "output": "Applicable title established, independently written final file and saved Turnitin receipt; a tick alone does not verify submission."
         },
         {
           "id": "eq-light",
@@ -501,6 +514,7 @@ study.timeline = {
           "title": "Submit before 17:30 HKT",
           "text": "Final official deadline: 09:30 UK / 17:30 HKT. Coursework is submitted through Turnitin, not email. No time-zone adjustment applies. Check the correct box and receipt; avoid replacing an on-time file with a late version.",
           "resources": [
+            "originalCw",
             "cwAssessment",
             "cwBooklet",
             "cw",
