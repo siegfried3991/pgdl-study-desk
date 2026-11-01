@@ -469,13 +469,13 @@ study.timeline = {
     },
     {
       "date": "2026-11-01",
-      "title": "Original paper located; finish independent checks",
+      "title": "Tonight: establish the question and prepare your files",
       "tasks": [
         {
           "id": "early-submit",
-          "kind": "Suggested target",
-          "title": "Aim to submit ELS coursework today",
-          "text": "The original six-page May 2024 paper was located in ELITE today; open the protected link. This does not settle the conflict with individual advice about a new paper. Resolve the applicable title before finalising your independent answer. Use the actual November Answer Booklet and current November Turnitin box, not the old May submission box. Filename: [SRN]_ECN_Assessment. Aim to submit early and save the actual receipt; the official deadline remains before 2 November 17:30 HKT.",
+          "kind": "Action needed",
+          "title": "Start with the paper, instructions and answer booklet",
+          "text": "Open the original six-page May 2024 paper, read every instruction and both parts, and open the current November candidate instructions, Word Answer Booklet and Level 7 criteria. The published November instructions say to use the original title; individual advice about a new paper remains unresolved. Treat the located paper as the original reference, not proof that conflicting advice has been withdrawn. Establish which question applies before committing to assessed content. Make your own private list of what each part asks; do not wait passively for a new paper.",
           "resources": [
             "originalCw",
             "originalCwCourse",
@@ -485,29 +485,117 @@ study.timeline = {
             "criteria"
           ],
           "units": [],
-          "output": "Applicable title established, independently written final file and saved Turnitin receipt; a tick alone does not verify submission."
+          "output": "Correct sources open, local Word file saved, title issue identified and a private task list.",
+          "time": "Tonight · next 30–45 minutes"
         },
         {
           "id": "eq-light",
           "kind": "Suggested study",
-          "title": "Light Equity recall",
-          "text": "25–40 minutes: retrieve the trust-creation checklist, duties and remedies from memory. Repair only the weakest two areas.",
+          "title": "Prepare for tomorrow; defer optional exam revision",
+          "text": "Save the actual November Answer Booklet locally as [SRN]_ECN_Assessment.docx, using your Student Reference Number. Bookmark the current November submission course and check that you can access it. Set an alarm for your chosen morning start. Coursework takes priority; move the optional Equity recall block until after a verified submission.",
           "resources": [
-            "recall",
-            "eqCourse"
+            "cwBooklet",
+            "cwAssessment",
+            "conduct",
+            "precheck"
           ],
-          "units": [
-            "eq-2",
-            "eq-5",
-            "eq-8"
-          ]
+          "units": [],
+          "time": "Tonight · next 15 minutes, then rest",
+          "output": "Booklet saved, access checked, morning start arranged. No submission is implied."
         }
       ]
     },
     {
       "date": "2026-11-02",
-      "title": "ELS coursework deadline",
+      "title": "Coursework work plan · aim to submit at 15:30 HKT",
       "tasks": [
+        {
+          "id": "cw-monday-source",
+          "kind": "Suggested work block",
+          "title": "Read and build your own outline",
+          "time": "07:00–08:30 HKT",
+          "text": "Read the applicable question again, identify its separate tasks and command words, and consult the relevant assigned reading and primary authorities. Make a compact source table with proposition, pinpoint reference and how you intend to use it. Draft your own section headings and approximate word budget across the whole answer; do not assume the parts carry equal weight. If the title remains unclear, seek Assessment Office clarification promptly. Do not replace the question with a general topic essay.",
+          "resources": [
+            "originalCw",
+            "cw",
+            "elsCourse",
+            "criteria"
+          ],
+          "units": [],
+          "output": "Your own outline, source notes and word budget."
+        },
+        {
+          "id": "cw-monday-draft1",
+          "kind": "Suggested work block",
+          "title": "Independent drafting · first block",
+          "time": "08:30–10:30 HKT",
+          "text": "Write your own answer from your outline and verified sources. Build analysis around the actual question. Apply or evaluate the law where the question requires it, record citations as you go and mark gaps to repair. Use two focused blocks with a short break. AI-generated or rephrased assessed content is not permitted unless expressly authorised by the university.",
+          "resources": [
+            "originalCw",
+            "cwBooklet",
+            "elsCourse"
+          ],
+          "units": [],
+          "output": "A substantial first section in your own words, with source references."
+        },
+        {
+          "id": "cw-monday-draft2",
+          "kind": "Suggested work block",
+          "title": "Independent drafting · complete the draft",
+          "time": "10:45–12:45 HKT",
+          "text": "Complete every required part and a reasoned conclusion. Keep the whole answer within the applicable limit: current instructions specify 2,500 words for post-September 2023 titles, with the stated 10% buffer rather than an extended target. Check the actual title and any valid individual exception. Do not spend the final hours perfecting one part while leaving another unanswered.",
+          "resources": [
+            "originalCw",
+            "cw",
+            "cwBooklet"
+          ],
+          "units": [],
+          "output": "A complete independent draft, including every required part."
+        },
+        {
+          "id": "cw-monday-edit",
+          "kind": "Suggested work block",
+          "title": "Lunch, then edit against the question and criteria",
+          "time": "12:45–14:30 HKT",
+          "text": "Take a short meal break, then read the entire draft critically. Check accuracy of authorities, analysis and application, whether each section answers the question, and whether your conclusion follows. Repair the largest substantive gaps first. Verify citations and bibliography and cut repetition. Follow the current rules for excluded material and report the true word count.",
+          "resources": [
+            "criteria",
+            "cw",
+            "originalCw"
+          ],
+          "units": [],
+          "output": "An edited answer with checked references and true word count."
+        },
+        {
+          "id": "cw-monday-submitprep",
+          "kind": "Suggested work block",
+          "title": "Final file and submission checks",
+          "time": "14:30–15:15 HKT",
+          "text": "Use the actual November Word Answer Booklet. Check SRN fields, [SRN]_ECN_Assessment filename, word count and the correct file. Verify any required Academic Conduct completion and pre-assessment acknowledgments. Open the current November course, not the historical May 2024 submission box: Your Assessment → Coursework → Coursework - Assessment Submission - LWC-ECN-NOV26_CW2.",
+          "resources": [
+            "cwBooklet",
+            "conduct",
+            "precheck",
+            "cwAssessment",
+            "cw"
+          ],
+          "units": [],
+          "output": "Final file and correct current submission box ready."
+        },
+        {
+          "id": "cw-monday-upload",
+          "kind": "Suggested work block",
+          "title": "Submit early and verify the receipt",
+          "time": "15:15–15:30 HKT · suggested target",
+          "text": "Complete the university submission process yourself, check that the correct document was received and save the receipt and submitted file. Coursework is submitted through Turnitin, not by emailing your answer. A selected file, draft, upload screen or website tick does not prove a finished submission. Leave the remaining two hours for genuine problems; follow the official technical-issue procedure promptly if needed.",
+          "resources": [
+            "cwAssessment",
+            "cw",
+            "techSupport"
+          ],
+          "units": [],
+          "output": "Actual Turnitin receipt and a verified copy of the submitted document."
+        },
         {
           "id": "cw-due",
           "kind": "Official deadline",
