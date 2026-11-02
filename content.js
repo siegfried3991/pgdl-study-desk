@@ -130,9 +130,9 @@ const study = {
 
 // Dated requirements and suggested revision are kept separate; no task implies submission.
 study.timeline = {
-  "checkedAt": "2026-10-29T22:31:27+08:00",
+  "checkedAt": "2026-11-02T18:03:49+08:00",
   "latestEmail": "28 October 2026 · 00:18 HKT",
-  "summary": "Last successful university mailbox review: 29 October. The latest reviewed assessment reply remains 28 October at 00:18 HKT. The attempted check could not be completed because university mail requires sign-in; no newer-mail conclusion is possible. ELITE was checked on 1 November: the original May 2024 ELS coursework paper has been located and linked below; the November submission area displays 2 November at 17:30 HKT. Finding the original paper does not settle conflicting individual advice about a new paper. No submission or time-zone request is verified.",
+  "summary": "University mailbox reviewed on 2 November. No newer assessment instructions were found in the all-folder search from 28 October onward; the latest reviewed reply remains 28 October at 00:18 HKT. The original-title versus new-paper conflict remains unresolved. The November ELS submission area is linked below. A private checklist tick does not verify a Turnitin submission; retain the actual receipt. No component-specific time-zone request is verified.",
   "monitor": "Daily mailbox check and website update scheduled for 18:00 HKT through 19 January 2027. Runs need this computer and Codex available, plus working university sign-in. Check the timestamp above for the last successful review.",
   "resources": {
     "cw": {
