@@ -1199,5 +1199,773 @@ window.revisionQuestions = [
       "convenience"
     ],
     "why": "A bona fide purchaser of the legal interest for value without notice has a distinct position. Do not substitute innocence alone for all the defence’s elements."
+  },
+  {
+    "id": "concept-types-1",
+    "unit": 1,
+    "kind": "mc",
+    "level": "concept",
+    "concept": "types",
+    "prompt": "A deed fixes 60% of the fund for A and 40% for B, with no discretion to change those shares. What type of trust is this?",
+    "answer": "A fixed trust",
+    "options": [
+      "A fixed trust",
+      "A discretionary trust because the shares are unequal",
+      "A bare power to make gifts",
+      "No trust can have unequal shares"
+    ],
+    "why": "Fixed means that entitlement is set by the terms. It does not mean that every beneficiary receives the same amount."
+  },
+  {
+    "id": "concept-types-2",
+    "unit": 1,
+    "kind": "mc",
+    "level": "concept",
+    "concept": "types",
+    "prompt": "Trustees must distribute a fund among a defined class, deciding which members receive what. Which classification fits?",
+    "answer": "A discretionary trust",
+    "options": [
+      "A discretionary trust",
+      "A fixed trust with equal shares for everyone",
+      "An outright gift to the trustees personally",
+      "A trust with no enforceable administration duties"
+    ],
+    "why": "The trustees have distribution discretion within the class. They must exercise that discretion according to the trust and their duties."
+  },
+  {
+    "id": "concept-types-3",
+    "unit": 1,
+    "kind": "mc",
+    "level": "concept",
+    "concept": "types",
+    "prompt": "An adult beneficiary with capacity is absolutely entitled to the income and capital held by a bare trustee. Which statement is best?",
+    "answer": "The trustee holds legal title for that beneficiary and must comply with lawful directions",
+    "options": [
+      "The trustee holds legal title for that beneficiary and must comply with lawful directions",
+      "The trustee may choose a different beneficiary",
+      "The beneficiary is merely hoping to be selected",
+      "The trustee owns the fund for personal use"
+    ],
+    "why": "A bare trust involves absolute beneficial entitlement. The trustee is not given a distribution discretion to substitute someone else."
+  },
+  {
+    "id": "concept-types-4",
+    "unit": 1,
+    "kind": "mc",
+    "level": "concept",
+    "concept": "types",
+    "prompt": "A beneficiary is entitled to trust income as it arises, but another person is entitled to capital later. What should you avoid assuming?",
+    "answer": "That the income entitlement necessarily includes ownership of the whole capital",
+    "options": [
+      "That the income entitlement necessarily includes ownership of the whole capital",
+      "That legal and beneficial interests can differ",
+      "That income and capital can have different beneficiaries",
+      "That the trust terms need to be read"
+    ],
+    "why": "A present income interest does not by itself confer the entire capital interest. Classify each entitlement separately."
+  },
+  {
+    "id": "concept-types-5",
+    "unit": 1,
+    "kind": "blank",
+    "level": "concept",
+    "concept": "types",
+    "prompt": "In a ___ trust, the terms determine the beneficiaries’ entitlements rather than leaving their shares to distribution discretion.",
+    "answer": "fixed",
+    "options": [
+      "fixed",
+      "discretionary",
+      "purely honorary",
+      "resulting in every case"
+    ],
+    "why": "Look for entitlements fixed by the terms; unequal shares are perfectly consistent with this classification."
+  },
+  {
+    "id": "concept-types-6",
+    "unit": 1,
+    "kind": "blank",
+    "level": "concept",
+    "concept": "types",
+    "prompt": "In a discretionary trust, membership of the class does not automatically give each person an ___ share of the assets.",
+    "answer": "equal",
+    "options": [
+      "equal",
+      "uncertainly large",
+      "administrative",
+      "investment"
+    ],
+    "why": "Objects have a position within the trust’s administration, but membership alone does not fix a fractional beneficial share."
+  },
+  {
+    "id": "concept-types-7",
+    "unit": 1,
+    "kind": "blank",
+    "level": "concept",
+    "concept": "types",
+    "prompt": "A bare trust beneficiary is absolutely entitled to both income and ___, subject to the applicable capacity rules.",
+    "answer": "capital",
+    "options": [
+      "capital",
+      "the trustee’s personal earnings",
+      "every future gift from the settlor",
+      "management fees"
+    ],
+    "why": "Distinguish absolute entitlement from a present income interest or membership of a discretionary class."
+  },
+  {
+    "id": "concept-types-8",
+    "unit": 1,
+    "kind": "blank",
+    "level": "concept",
+    "concept": "types",
+    "prompt": "An interest in possession concerns a present right to enjoyment, such as trust ___ as it arises.",
+    "answer": "income",
+    "options": [
+      "income",
+      "all future trusteeships",
+      "the trustee’s salary",
+      "every capital asset automatically"
+    ],
+    "why": "A present enjoyment right and an entitlement to capital are not the same thing."
+  },
+  {
+    "id": "concept-interests-1",
+    "unit": 1,
+    "kind": "mc",
+    "level": "concept",
+    "concept": "interests",
+    "prompt": "Which person establishes the trust arrangement?",
+    "answer": "The settlor",
+    "options": [
+      "The settlor",
+      "Every beneficiary automatically",
+      "Only a court-appointed accountant",
+      "The trustee’s creditor"
+    ],
+    "why": "The settlor creates the arrangement. The trustee administers it and the beneficiary has the equitable entitlement."
+  },
+  {
+    "id": "concept-interests-2",
+    "unit": 1,
+    "kind": "mc",
+    "level": "concept",
+    "concept": "interests",
+    "prompt": "A trustee is registered as legal owner of an asset held for beneficiaries. May the trustee treat it as personal wealth?",
+    "answer": "No; legal title is held subject to the trust obligations",
+    "options": [
+      "No; legal title is held subject to the trust obligations",
+      "Yes; registration always defeats beneficial ownership",
+      "Yes; unless the beneficiaries live nearby",
+      "Yes; because only physical possession matters"
+    ],
+    "why": "Legal ownership does not remove duties owed to those beneficially entitled."
+  },
+  {
+    "id": "concept-interests-3",
+    "unit": 1,
+    "kind": "mc",
+    "level": "concept",
+    "concept": "interests",
+    "prompt": "An adult has a future beneficial interest under a valid trust. Which statement is best?",
+    "answer": "A future interest must still be considered when analysing the whole beneficial ownership",
+    "options": [
+      "A future interest must still be considered when analysing the whole beneficial ownership",
+      "Only present beneficiaries can ever matter",
+      "Being adult automatically makes every interest immediately payable",
+      "Future interests belong personally to the trustee"
+    ],
+    "why": "Timing of enjoyment does not make a beneficial interest irrelevant. Read the conditions and all other interests."
+  },
+  {
+    "id": "concept-interests-4",
+    "unit": 1,
+    "kind": "mc",
+    "level": "concept",
+    "concept": "interests",
+    "prompt": "A provision pays money at a later age. What should you identify before deciding whether entitlement is contingent?",
+    "answer": "Whether the words impose a condition on entitlement or merely postpone enjoyment",
+    "options": [
+      "Whether the words impose a condition on entitlement or merely postpone enjoyment",
+      "Whether the beneficiary likes the trustee",
+      "Whether the fund is kept in cash",
+      "Whether every payment at a later age is automatically contingent"
+    ],
+    "why": "Entitlement and payment timing are distinct. The exact words and any gift over matter."
+  },
+  {
+    "id": "concept-interests-5",
+    "unit": 1,
+    "kind": "blank",
+    "level": "concept",
+    "concept": "interests",
+    "prompt": "The trustee normally holds legal title; the beneficiary has the ___ entitlement.",
+    "answer": "equitable",
+    "options": [
+      "equitable",
+      "trustee’s personal",
+      "governmental",
+      "criminal"
+    ],
+    "why": "A trust separates legal control and beneficial entitlement rather than making the fund the trustee’s personal property."
+  },
+  {
+    "id": "concept-interests-6",
+    "unit": 1,
+    "kind": "blank",
+    "level": "concept",
+    "concept": "interests",
+    "prompt": "A condition that must be satisfied before an entitlement arises points towards a ___ interest.",
+    "answer": "contingent",
+    "options": [
+      "contingent",
+      "necessarily possessory",
+      "fiduciary",
+      "legal-title-only"
+    ],
+    "why": "Identify the condition and distinguish it from words merely delaying enjoyment of an existing entitlement."
+  },
+  {
+    "id": "concept-interests-7",
+    "unit": 1,
+    "kind": "blank",
+    "level": "concept",
+    "concept": "interests",
+    "prompt": "A vested interest can exist even when its ___ is postponed.",
+    "answer": "enjoyment",
+    "options": [
+      "enjoyment",
+      "intention is absent",
+      "property is unidentifiable",
+      "beneficiary is undefined"
+    ],
+    "why": "Vested does not always mean immediately payable. Classify entitlement and timing separately."
+  },
+  {
+    "id": "concept-interests-8",
+    "unit": 1,
+    "kind": "blank",
+    "level": "concept",
+    "concept": "interests",
+    "prompt": "Before early termination, identify ___ beneficial interests, including relevant future interests.",
+    "answer": "all",
+    "options": [
+      "all",
+      "only the largest",
+      "only those currently producing income",
+      "only the trustee’s"
+    ],
+    "why": "The collective absolute-entitlement analysis cannot simply ignore other beneficiaries or contingencies."
+  },
+  {
+    "id": "concept-creation-1",
+    "unit": 2,
+    "kind": "mc",
+    "level": "concept",
+    "concept": "creation",
+    "prompt": "A document calls itself a trust, but no one can identify the property it covers. What is the immediate issue?",
+    "answer": "Certainty of subject matter",
+    "options": [
+      "Certainty of subject matter",
+      "Whether the trustees have made enough profit",
+      "Whether every beneficiary is a lawyer",
+      "Whether the document has an attractive title"
+    ],
+    "why": "The trust property must be sufficiently identified. A label cannot supply a missing certainty."
+  },
+  {
+    "id": "concept-creation-2",
+    "unit": 2,
+    "kind": "mc",
+    "level": "concept",
+    "concept": "creation",
+    "prompt": "Someone expresses a hope that a recipient will be generous. What must you decide before finding a trust?",
+    "answer": "Whether the words and conduct objectively impose a binding obligation",
+    "options": [
+      "Whether the words and conduct objectively impose a binding obligation",
+      "Whether the recipient is wealthy",
+      "Whether generosity is socially desirable",
+      "Whether every hope automatically creates a trust"
+    ],
+    "why": "A wish and an imperative obligation differ. No technical word is essential, but binding intention must be established."
+  },
+  {
+    "id": "concept-creation-3",
+    "unit": 2,
+    "kind": "mc",
+    "level": "concept",
+    "concept": "creation",
+    "prompt": "An arrangement satisfies the three certainties. Is that necessarily the end of the creation analysis?",
+    "answer": "No; applicable formalities and constitution still need examination",
+    "options": [
+      "No; applicable formalities and constitution still need examination",
+      "Yes; no other requirements can apply",
+      "Yes; all legal title transfers automatically",
+      "No; a trust must always be a charity"
+    ],
+    "why": "Clear terms do not necessarily complete the intended transfer or satisfy the applicable formal requirements."
+  },
+  {
+    "id": "concept-creation-4",
+    "unit": 2,
+    "kind": "mc",
+    "level": "concept",
+    "concept": "creation",
+    "prompt": "An owner declares that they now hold identified property on trust. Which method should you analyse?",
+    "answer": "Self-declaration of trust",
+    "options": [
+      "Self-declaration of trust",
+      "An automatic transfer to an unidentified stranger",
+      "A discretionary appointment by every beneficiary",
+      "A resulting trust merely because no other trustee is named"
+    ],
+    "why": "A self-declaration and a transfer to other trustees are different methods; each still needs its proper validity analysis."
+  },
+  {
+    "id": "concept-creation-5",
+    "unit": 2,
+    "kind": "blank",
+    "level": "concept",
+    "concept": "creation",
+    "prompt": "The three certainties concern intention, subject matter and ___.",
+    "answer": "objects",
+    "options": [
+      "objects",
+      "investment returns",
+      "annual meetings",
+      "tax rates"
+    ],
+    "why": "Objects identify the beneficiaries or relevant class. Apply the appropriate certainty test for the arrangement."
+  },
+  {
+    "id": "concept-creation-6",
+    "unit": 2,
+    "kind": "blank",
+    "level": "concept",
+    "concept": "creation",
+    "prompt": "Whether property has been vested as required, or a valid self-declaration made, concerns ___.",
+    "answer": "constitution",
+    "options": [
+      "constitution",
+      "public benefit",
+      "dishonesty",
+      "compensation"
+    ],
+    "why": "Constitution is distinct from having sufficiently certain terms."
+  },
+  {
+    "id": "concept-creation-7",
+    "unit": 2,
+    "kind": "blank",
+    "level": "concept",
+    "concept": "creation",
+    "prompt": "Uncertainty about the meaning of a beneficiary class is conceptual; difficulty proving membership is ___ uncertainty.",
+    "answer": "evidential",
+    "options": [
+      "evidential",
+      "investment",
+      "proprietary",
+      "mandatory"
+    ],
+    "why": "Definition and evidence are different problems. Identify which one the facts raise."
+  },
+  {
+    "id": "concept-creation-8",
+    "unit": 2,
+    "kind": "blank",
+    "level": "concept",
+    "concept": "creation",
+    "prompt": "A fixed trust normally requires a complete ___ of beneficiaries for certainty of objects.",
+    "answer": "list",
+    "options": [
+      "list",
+      "guarantee of profit",
+      "transfer of the trustee’s salary",
+      "history of litigation"
+    ],
+    "why": "Do not apply the discretionary-trust individual-membership test indiscriminately to fixed trusts."
+  },
+  {
+    "id": "concept-duties-1",
+    "unit": 5,
+    "kind": "mc",
+    "level": "concept",
+    "concept": "duties",
+    "prompt": "What is the best distinction between a trustee’s power and a trustee’s duty?",
+    "answer": "A power authorises an act; duties govern what must be considered or done",
+    "options": [
+      "A power authorises an act; duties govern what must be considered or done",
+      "A power eliminates every duty",
+      "A duty always transfers ownership to the trustee",
+      "The words always mean exactly the same thing"
+    ],
+    "why": "Ask both whether the act was authorised and whether the trustee performed it in accordance with applicable obligations."
+  },
+  {
+    "id": "concept-duties-2",
+    "unit": 5,
+    "kind": "mc",
+    "level": "concept",
+    "concept": "duties",
+    "prompt": "Before relying on a statutory investment power, what should a trustee check?",
+    "answer": "The trust instrument and applicable statutory restrictions",
+    "options": [
+      "The trust instrument and applicable statutory restrictions",
+      "Only the investment’s advertising",
+      "Only whether a friend recommends it",
+      "Whether beneficiaries have different surnames"
+    ],
+    "why": "The instrument may restrict the power. Authority and proper exercise must both be established."
+  },
+  {
+    "id": "concept-duties-3",
+    "unit": 5,
+    "kind": "mc",
+    "level": "concept",
+    "concept": "duties",
+    "prompt": "An authorised investment turns out badly. What is the correct starting point?",
+    "answer": "Examine the applicable care standard, decision process and context",
+    "options": [
+      "Examine the applicable care standard, decision process and context",
+      "Any loss automatically proves breach",
+      "Trustees never owe investment duties",
+      "An adviser’s involvement conclusively proves compliance"
+    ],
+    "why": "Trustees are not guarantors of positive returns. A loss alone does not establish negligent administration."
+  },
+  {
+    "id": "concept-duties-4",
+    "unit": 5,
+    "kind": "mc",
+    "level": "concept",
+    "concept": "duties",
+    "prompt": "A trustee has relevant professional expertise. How can that affect the statutory care standard where it applies?",
+    "answer": "Special knowledge, experience and professional status must be taken into account",
+    "options": [
+      "Special knowledge, experience and professional status must be taken into account",
+      "Professional status automatically removes liability",
+      "Only the least experienced trustee’s abilities can matter",
+      "Professional trustees must guarantee profit"
+    ],
+    "why": "The reasonable-care-and-skill standard is sensitive to the statutory factors, rather than being a guarantee of success."
+  },
+  {
+    "id": "concept-duties-5",
+    "unit": 5,
+    "kind": "mc",
+    "level": "concept",
+    "concept": "duties",
+    "prompt": "A portfolio was suitable initially but has never been reconsidered. What duty-related issue arises?",
+    "answer": "The need for periodic review",
+    "options": [
+      "The need for periodic review",
+      "A duty to sell every asset each week",
+      "A rule that suitability never changes",
+      "A rule that only beneficiaries may review investments"
+    ],
+    "why": "Investment duties include review; a careful original choice does not exhaust ongoing responsibilities."
+  },
+  {
+    "id": "concept-duties-6",
+    "unit": 5,
+    "kind": "mc",
+    "level": "concept",
+    "concept": "duties",
+    "prompt": "Is proper investment advice always required without exception?",
+    "answer": "No; the statutory exception concerns a reasonable conclusion that advice is unnecessary or inappropriate",
+    "options": [
+      "No; the statutory exception concerns a reasonable conclusion that advice is unnecessary or inappropriate",
+      "Yes; there is no exception",
+      "No; advice is always prohibited",
+      "No; advice is relevant only after litigation starts"
+    ],
+    "why": "State the usual advice requirement and the exception accurately. Do not treat either as an absolute slogan."
+  },
+  {
+    "id": "concept-duties-7",
+    "unit": 5,
+    "kind": "mc",
+    "level": "concept",
+    "concept": "duties",
+    "prompt": "A trustee delegates an authorised function to an agent. What should the trustee avoid assuming?",
+    "answer": "That delegation automatically ends every responsibility for selection and supervision",
+    "options": [
+      "That delegation automatically ends every responsibility for selection and supervision",
+      "That the terms of delegation matter",
+      "That review may be needed",
+      "That the scope of authority should be checked"
+    ],
+    "why": "Authorised delegation is not necessarily an escape from responsibility. Examine selection, terms and the relevant review obligations."
+  },
+  {
+    "id": "concept-duties-8",
+    "unit": 5,
+    "kind": "mc",
+    "level": "concept",
+    "concept": "duties",
+    "prompt": "Why should a trustee keep proper accounts and relevant records?",
+    "answer": "To administer the trust responsibly and account for the handling of trust property",
+    "options": [
+      "To administer the trust responsibly and account for the handling of trust property",
+      "To turn the property into personal assets",
+      "To guarantee every investment’s success",
+      "To replace the need for legal authority"
+    ],
+    "why": "Records support administration and accountability. This does not mean every beneficiary has an unqualified right to every possible document."
+  },
+  {
+    "id": "concept-duties-9",
+    "unit": 5,
+    "kind": "blank",
+    "level": "concept",
+    "concept": "duties",
+    "prompt": "The standard investment criteria include suitability and the need for ___ so far as appropriate.",
+    "answer": "diversification",
+    "options": [
+      "diversification",
+      "speculation",
+      "equal payments in every trust",
+      "absolute secrecy"
+    ],
+    "why": "Consider the particular trust and portfolio; appropriate diversification is not a mechanical requirement to buy every asset type."
+  },
+  {
+    "id": "concept-duties-10",
+    "unit": 5,
+    "kind": "blank",
+    "level": "concept",
+    "concept": "duties",
+    "prompt": "A trustee must consider whether an investment is ___ for the trust.",
+    "answer": "suitable",
+    "options": [
+      "suitable",
+      "fashionable",
+      "guaranteed to double",
+      "recommended on social media"
+    ],
+    "why": "Suitability relates to the trust’s circumstances and the investment, not popularity alone."
+  },
+  {
+    "id": "concept-duties-11",
+    "unit": 5,
+    "kind": "blank",
+    "level": "concept",
+    "concept": "duties",
+    "prompt": "Under the applicable statutory framework, the trustee must exercise reasonable care and ___.",
+    "answer": "skill",
+    "options": [
+      "skill",
+      "optimism",
+      "personal generosity",
+      "certainty of profit"
+    ],
+    "why": "Care concerns the required standard of conduct, not a promise that every outcome will be favourable."
+  },
+  {
+    "id": "concept-duties-12",
+    "unit": 5,
+    "kind": "blank",
+    "level": "concept",
+    "concept": "duties",
+    "prompt": "Investment duties continue after the initial purchase through periodic ___.",
+    "answer": "review",
+    "options": [
+      "review",
+      "automatic immunity",
+      "personal withdrawal",
+      "termination"
+    ],
+    "why": "Keep the portfolio and circumstances under review rather than treating the first decision as final."
+  },
+  {
+    "id": "concept-duties-13",
+    "unit": 5,
+    "kind": "blank",
+    "level": "concept",
+    "concept": "duties",
+    "prompt": "The usual requirement to obtain and consider proper advice applies before investment and on ___, subject to its exception.",
+    "answer": "review",
+    "options": [
+      "review",
+      "every beneficiary’s holiday",
+      "every change of address",
+      "every charitable donation worldwide"
+    ],
+    "why": "Advice and review are connected duties under the relevant investment provisions."
+  },
+  {
+    "id": "concept-duties-14",
+    "unit": 5,
+    "kind": "blank",
+    "level": "concept",
+    "concept": "duties",
+    "prompt": "A trustee’s authority may come from the trust instrument or from ___.",
+    "answer": "legislation",
+    "options": [
+      "legislation",
+      "personal preference alone",
+      "the trustee’s ownership of unrelated assets",
+      "a beneficiary’s social-media post"
+    ],
+    "why": "Identify a valid legal source of power and its restrictions before examining the way it was used."
+  },
+  {
+    "id": "concept-duties-15",
+    "unit": 5,
+    "kind": "blank",
+    "level": "concept",
+    "concept": "duties",
+    "prompt": "Having authority to act does not prove that the power was properly ___.",
+    "answer": "exercised",
+    "options": [
+      "exercised",
+      "advertised",
+      "inherited personally",
+      "registered as a charity"
+    ],
+    "why": "An act can fall within a power yet breach the duties governing its exercise."
+  },
+  {
+    "id": "concept-duties-16",
+    "unit": 5,
+    "kind": "blank",
+    "level": "concept",
+    "concept": "duties",
+    "prompt": "Delegation can require attention to the agent’s selection, the scope of authority and ongoing ___.",
+    "answer": "supervision",
+    "options": [
+      "supervision",
+      "guaranteed profit",
+      "personal benefit",
+      "equal distributions"
+    ],
+    "why": "Check the applicable delegation and review rules; do not assume an agent replaces all trustee responsibility."
+  },
+  {
+    "id": "concept-loyalty-1",
+    "unit": 6,
+    "kind": "mc",
+    "level": "concept",
+    "concept": "loyalty",
+    "prompt": "A trustee is considering a transaction in which they also have a personal interest. What issue must be examined?",
+    "answer": "Conflict between duty and interest, and any valid authorisation or informed consent",
+    "options": [
+      "Conflict between duty and interest, and any valid authorisation or informed consent",
+      "Only whether the trustee feels confident",
+      "Only whether the trust has already lost money",
+      "Whether conflicts disappear whenever the trustee acts honestly"
+    ],
+    "why": "Loyalty rules address conflicts. Good intentions or no demonstrated loss do not by themselves settle the issue."
+  },
+  {
+    "id": "concept-loyalty-2",
+    "unit": 6,
+    "kind": "mc",
+    "level": "concept",
+    "concept": "loyalty",
+    "prompt": "A fiduciary makes an undisclosed profit through their position, but the beneficiary suffers no financial loss. Which statement is best?",
+    "answer": "A loyalty-based profit claim may still arise",
+    "options": [
+      "A loyalty-based profit claim may still arise",
+      "No loss means that no fiduciary claim is possible",
+      "The gain automatically belongs to the trustee",
+      "Only negligent administration can ever matter"
+    ],
+    "why": "An unauthorised gain and compensation for loss are different inquiries."
+  },
+  {
+    "id": "concept-loyalty-3",
+    "unit": 6,
+    "kind": "mc",
+    "level": "concept",
+    "concept": "loyalty",
+    "prompt": "What does “fully informed consent” require you to investigate?",
+    "answer": "What was disclosed, who had to consent and whether the authorisation was valid",
+    "options": [
+      "What was disclosed, who had to consent and whether the authorisation was valid",
+      "Only whether someone stayed silent",
+      "Only whether the transaction was profitable",
+      "Whether disclosure is never needed for a friend"
+    ],
+    "why": "Consent is not established merely by using the word. Examine the information and the person or persons entitled to give it."
+  },
+  {
+    "id": "concept-loyalty-4",
+    "unit": 6,
+    "kind": "mc",
+    "level": "concept",
+    "concept": "loyalty",
+    "prompt": "Is every careless act by a trustee automatically a fiduciary loyalty breach?",
+    "answer": "No; identify the particular duty and distinguish care from loyalty",
+    "options": [
+      "No; identify the particular duty and distinguish care from loyalty",
+      "Yes; negligence and disloyalty are always identical",
+      "No; trustees never have fiduciary duties",
+      "Yes; every administrative mistake proves a secret profit"
+    ],
+    "why": "A trustee can owe both care and loyalty duties. Classify the conduct and relevant obligation rather than collapsing them together."
+  },
+  {
+    "id": "concept-loyalty-5",
+    "unit": 6,
+    "kind": "blank",
+    "level": "concept",
+    "concept": "loyalty",
+    "prompt": "No-conflict and no-profit principles protect fiduciary ___.",
+    "answer": "loyalty",
+    "options": [
+      "loyalty",
+      "guaranteed returns",
+      "tax exemptions",
+      "equal distributions"
+    ],
+    "why": "Loyalty concerns the fiduciary undertaking, conflicts and unauthorised gains, rather than every kind of poor performance."
+  },
+  {
+    "id": "concept-loyalty-6",
+    "unit": 6,
+    "kind": "blank",
+    "level": "concept",
+    "concept": "loyalty",
+    "prompt": "A gain-based response can require an account of ___.",
+    "answer": "profits",
+    "options": [
+      "profits",
+      "only proven financial losses",
+      "beneficiary birthdays",
+      "charitable categories"
+    ],
+    "why": "A profit-based response is analytically different from compensating for loss."
+  },
+  {
+    "id": "concept-loyalty-7",
+    "unit": 6,
+    "kind": "blank",
+    "level": "concept",
+    "concept": "loyalty",
+    "prompt": "A trustee cannot exclude liability for their own fraud or ___.",
+    "answer": "dishonesty",
+    "options": [
+      "dishonesty",
+      "any negligence in every circumstance",
+      "all investment losses regardless of breach",
+      "all losses caused by third parties"
+    ],
+    "why": "The scope of a clause must be examined, but the irreducible obligation of honesty and good faith cannot be removed."
+  },
+  {
+    "id": "concept-loyalty-8",
+    "unit": 6,
+    "kind": "blank",
+    "level": "concept",
+    "concept": "loyalty",
+    "prompt": "Before selecting a remedy, identify the duty, the alleged breach and whether the claim concerns loss, gain or ___.",
+    "answer": "property",
+    "options": [
+      "property",
+      "popularity",
+      "a case’s report font",
+      "the beneficiary’s surname"
+    ],
+    "why": "Different wrongs and objectives can call for different legal responses. Avoid choosing a remedy before identifying the claim."
   }
 ];

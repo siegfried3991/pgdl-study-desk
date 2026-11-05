@@ -2,6 +2,7 @@
 'use strict';
 const $=id=>document.getElementById(id), bank=window.revisionQuestions;
 const units=study.units.filter(u=>u.subject==='equity');
+const concepts={types:{label:'Fixed, discretionary and other trust types',source:'https://www.gov.uk/trusts-taxes/types-of-trust.html'},interests:{label:'People, ownership and beneficial interests'},creation:{label:'Creating a trust: the basic requirements'},duties:{label:'Trustees’ powers, care and administration',source:'https://www.legislation.gov.uk/ukpga/2000/29/contents'},loyalty:{label:'Loyalty, conflicts and unauthorised profits'}};
 const key='pgdl-equity-rounds-v1';
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const shuffle=xs=>{const a=[...xs];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
@@ -14,15 +15,17 @@ if(saved.active&&(!Array.isArray(saved.active.items)||!saved.active.items.length
 const persist=()=>{try{localStorage.setItem(key,JSON.stringify(saved));}catch{$('storage-note').hidden=false;}};
 const streak=()=>{const days=new Set(saved.days);let date=new Date(hkDay()+'T12:00:00Z');if(!days.has(date.toISOString().slice(0,10)))date.setUTCDate(date.getUTCDate()-1);let n=0;while(days.has(date.toISOString().slice(0,10))){n++;date.setUTCDate(date.getUTCDate()-1);}return n;};
 let selected=null;
-function stats(){ $('xp').textContent=saved.xp; $('mastered').textContent=`${new Set(saved.correct).size} / ${bank.length}`; $('streak').textContent=streak();$('mistake-count').textContent=`(${saved.missed.length})`;$('mistakes').disabled=!saved.missed.length;$('resume').hidden=!saved.active;
-$('unit-path').innerHTML=units.map(u=>{const ids=bank.filter(q=>q.unit===u.number).map(q=>q.id),n=ids.filter(id=>saved.correct.includes(id)).length;return `<div class="unit-step"><span class="number">${u.number}</span><button data-unit="${u.number}">${esc(u.title)}</button><span>${n} / ${ids.length}</span></div>`;}).join('');
-$('unit-path').querySelectorAll('[data-unit]').forEach(b=>b.onclick=()=>{$('topic').value=b.dataset.unit;start(false);});
+function stats(){ $('xp').textContent=saved.xp; $('mastered').textContent=`${new Set(saved.correct).size} / ${bank.length}`; $('streak').textContent=streak();const relevantMisses=pool().filter(q=>saved.missed.includes(q.id));$('mistake-count').textContent=`(${relevantMisses.length})`;$('mistakes').disabled=!relevantMisses.length;$('resume').hidden=!saved.active;
+const conceptMode=$('level').value==='concept';
+const paths=conceptMode?Object.entries(concepts).map(([id,c])=>({id,title:c.label,ids:bank.filter(q=>q.concept===id).map(q=>q.id)})):units.map(u=>({id:String(u.number),title:u.title,ids:bank.filter(q=>q.unit===u.number).map(q=>q.id)}));
+$('unit-path').innerHTML=paths.map((p,i)=>`<div class="unit-step"><span class="number">${i+1}</span><button data-path="${p.id}">${esc(p.title)}</button><span>${p.ids.filter(id=>saved.correct.includes(id)).length} / ${p.ids.length}</span></div>`).join('');
+$('unit-path').querySelectorAll('[data-path]').forEach(b=>b.onclick=()=>{if(conceptMode){$('topic').value='all';$('concept-focus').value=b.dataset.path;}else $('topic').value=b.dataset.path;start(false);});
 }
 function screen(id){['setup','round','result'].forEach(x=>$(x).hidden=x!==id);}
-function pool(){return bank.filter(q=>($('topic').value==='all'||q.unit===Number($('topic').value))&&($('format').value==='mixed'||q.kind===$('format').value)&&($('level').value==='all'||q.level===$('level').value));}
+function pool(){return bank.filter(q=>($('topic').value==='all'||q.unit===Number($('topic').value))&&($('format').value==='mixed'||q.kind===$('format').value)&&($('level').value==='all'||q.level===$('level').value)&&($('concept-focus').value==='all'||q.concept===$('concept-focus').value));}
 function start(mistakes,custom){
  if(saved.active&&!window.confirm('Replace your saved round with a new one? Checked answers and earned XP will remain.'))return;
- let qs=custom|| (mistakes?bank.filter(q=>saved.missed.includes(q.id)):pool());
+ let qs=custom|| (mistakes?pool().filter(q=>saved.missed.includes(q.id)):pool());
  if(!qs.length){$('setup-status').textContent='No questions in this selection yet. Try another topic or style.';return;}
  // Interleave unmastered and previously correct questions, without losing either question style.
  let ordered=shuffle(qs.filter(q=>!saved.correct.includes(q.id))).concat(shuffle(qs.filter(q=>saved.correct.includes(q.id))));
@@ -35,7 +38,7 @@ function current(){const a=saved.active,item=a.items[a.index];return {a,item,q:b
 function render(){if(!saved.active){screen('setup');stats();return;}screen('round');const {a,item,q}=current();selected=item.chosen;
  $('round-count').textContent=`Question ${a.index+1} of ${a.items.length}`;$('combo').textContent=a.combo>1?`${a.combo} correct in a row`:'';
  $('round-progress').max=a.items.length;$('round-progress').value=a.items.filter(i=>i.correct!==null).length;
- $('question-type').textContent=`Unit ${q.unit} · ${q.level==='advanced'?'Applied / harder':'Foundation'} · ${q.kind==='mc'?'Multiple choice':'Word-bank blank'}`;
+ $('question-type').textContent=`Unit ${q.unit} · ${q.level==='concept'?'Core concept: '+concepts[q.concept].label:q.level==='advanced'?'Applied / harder':'Foundation'} · ${q.kind==='mc'?'Multiple choice':'Word-bank blank'}`;
  $('question-help').textContent=q.kind==='mc'?'Choose the single best answer.':'Choose the option that completes the rule.';
  $('round-title').innerHTML=esc(q.prompt).replace('___',`<span class="blank">${esc(selected===null?'…':selected)}</span>`);
  $('options').className='options'+(q.kind==='blank'?' wordbank':'');
@@ -46,7 +49,7 @@ function render(){if(!saved.active){screen('setup');stats();return;}screen('roun
  if(item.correct!==null)feedback(q,item);
  $('round-title').focus({preventScroll:true});
 }
-function feedback(q,item){const u=units.find(u=>u.number===q.unit);$('feedback').className='feedback'+(item.correct?'':' wrong');$('feedback').innerHTML=`<strong>${item.correct?'Correct — keep going.':'Not quite — here is the distinction.'}</strong><p><b>Best answer:</b> ${esc(q.answer)}</p><p>${esc(q.why)}</p><a href="index.html#eq-${q.unit}" target="_blank" rel="noopener">Review Unit ${q.unit} notes</a><a href="exam-prep.html#read-${q.unit}" target="_blank" rel="noopener">Reading guide &amp; written practice</a><a href="${esc(study.subjects.equity.course)}" target="_blank" rel="noopener">Assigned course materials (sign-in)</a><p class="small">Practice source: ${esc(u.title)}, existing Study Desk revision notes. Follow the unit’s readings for the full rule.</p>`;}
+function feedback(q,item){const u=units.find(u=>u.number===q.unit);$('feedback').className='feedback'+(item.correct?'':' wrong');$('feedback').innerHTML=`<strong>${item.correct?'Correct — keep going.':'Not quite — here is the distinction.'}</strong><p><b>Best answer:</b> ${esc(q.answer)}</p><p>${esc(q.why)}</p>${q.concept&&concepts[q.concept].source?'<p><a href="'+esc(concepts[q.concept].source)+'" target="_blank" rel="noopener">Read the general source</a></p>':''}<a href="index.html#eq-${q.unit}" target="_blank" rel="noopener">Review Unit ${q.unit} notes</a><a href="exam-prep.html#read-${q.unit}" target="_blank" rel="noopener">Reading guide &amp; written practice</a><a href="${esc(study.subjects.equity.course)}" target="_blank" rel="noopener">Assigned course materials (sign-in)</a><p class="small">Practice source: ${esc(u.title)}, existing Study Desk revision notes. Follow the unit’s readings for the full rule.</p>`;}
 $('check').onclick=()=>{const {a,item,q}=current();if(selected===null||item.correct!==null)return;item.chosen=selected;item.correct=selected===q.answer;if(item.correct){a.combo++;if(!saved.correct.includes(q.id)){saved.correct.push(q.id);saved.xp+=10;}saved.missed=saved.missed.filter(id=>id!==q.id);}else{a.combo=0;if(!saved.missed.includes(q.id))saved.missed.push(q.id);}persist();stats();render();$('next').focus({preventScroll:true});};
 function finish(){const a=saved.active;let correct=a.items.filter(x=>x.correct).length;saved.xp+=5;if(!saved.days.includes(hkDay()))saved.days.push(hkDay());const misses=a.items.filter(i=>!i.correct).map(i=>bank.find(q=>q.id===i.id));saved.active=null;persist();stats();screen('result');$('result-title').textContent=`${correct} / ${a.items.length} on your first try`;$('result-message').textContent=misses.length?`Round complete: +5 XP. Revisit ${misses.length} distinction${misses.length===1?'':'s'}, then try those questions again.`:'Round complete: +5 XP. All correct this round. Try another unit or explain each rule aloud without the options.';
 $('round-review').innerHTML=a.items.map(i=>{const q=bank.find(q=>q.id===i.id);return `<details><summary>${i.correct?'✓ Correct':'↻ Review'} · ${esc(q.prompt)}</summary><p>Your answer: ${esc(i.chosen)}</p><p><b>Best answer:</b> ${esc(q.answer)}</p><p>${esc(q.why)}</p><a href="index.html#eq-${q.unit}" target="_blank" rel="noopener">Review Unit ${q.unit}</a></details>`;}).join('');$('retry').hidden=!misses.length;$('retry').onclick=()=>start(true,misses);$('result-title').focus({preventScroll:true});}
@@ -55,6 +58,9 @@ $('pause').onclick=()=>{persist();screen('setup');stats();$('resume').focus();};
 $('start').onclick=()=>start(false);$('mistakes').onclick=()=>start(true);$('resume').onclick=render;$('another').onclick=()=>{screen('setup');stats();$('start').focus();};
 $('reset').onclick=()=>{if(window.confirm('Reset only practice XP, mistakes, streak and saved round? Your main Study Desk progress will stay in place.')){saved={correct:[],missed:[],xp:0,days:[],active:null};persist();screen('setup');stats();}};
 units.forEach(u=>{const o=document.createElement('option');o.value=u.number;o.textContent=`Unit ${u.number}: ${u.title}`;$('topic').append(o);});
-const requested=new URLSearchParams(location.search);if(['all','foundation','advanced'].includes(requested.get('level')))$('level').value=requested.get('level');if(units.some(u=>String(u.number)===requested.get('unit')))$('topic').value=requested.get('unit');
-stats();screen('setup');
+Object.entries(concepts).forEach(([id,c])=>{const o=document.createElement('option');o.value=id;o.textContent=c.label;$('concept-focus').append(o);});
+function syncMode(){const active=$('level').value==='concept';$('focus-wrap').hidden=!active;$('concept-primer').hidden=!active;$('topic-wrap').hidden=active;if(active)$('topic').value='all';else $('concept-focus').value='all';stats();}
+$('level').onchange=syncMode;$('concept-focus').onchange=()=>{stats();};$('topic').onchange=()=>{stats();};$('format').onchange=()=>{stats();};
+const requested=new URLSearchParams(location.search);if(['all','concept','foundation','advanced'].includes(requested.get('level')))$('level').value=requested.get('level');if(units.some(u=>String(u.number)===requested.get('unit')))$('topic').value=requested.get('unit');if(Object.hasOwn(concepts,requested.get('focus'))){$('level').value='concept';$('concept-focus').value=requested.get('focus');}
+syncMode();screen('setup');
 })();
