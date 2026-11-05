@@ -1967,5 +1967,581 @@ window.revisionQuestions = [
       "the beneficiary’s surname"
     ],
     "why": "Different wrongs and objectives can call for different legal responses. Avoid choosing a remedy before identifying the claim."
+  },
+  {
+    "id": "scenario-1-1",
+    "unit": 1,
+    "kind": "mc",
+    "level": "scenario",
+    "prompt": "A deed gives Noor 30% of a fund and Ezra 70%. It lets the trustees choose investments and the dates of payments, but expressly prohibits changing beneficial shares. Ezra argues that these discretions make the trust discretionary and permit an equal division. Which advice is best?",
+    "tested": "Distribution entitlement versus administrative discretion",
+    "answer": "The trust fixes beneficial shares; the administrative powers do not permit equal division.",
+    "options": [
+      "The trust fixes beneficial shares; the administrative powers do not permit equal division.",
+      "The investment discretion makes it discretionary, but only as to future income.",
+      "The payment-timing discretion allows the trustees to adjust shares as needs change.",
+      "Both beneficiaries have present rights, so each is presumptively entitled to half.",
+      "The trustees may equalise payments if they consider that the fairest use of their powers."
+    ],
+    "optionNotes": {
+      "The trust fixes beneficial shares; the administrative powers do not permit equal division.": "The deed fixes entitlement while leaving administration flexible.",
+      "The investment discretion makes it discretionary, but only as to future income.": "Investment discretion alone does not establish distribution discretion over income.",
+      "The payment-timing discretion allows the trustees to adjust shares as needs change.": "Timing a payment is different from changing who is beneficially entitled to it.",
+      "Both beneficiaries have present rights, so each is presumptively entitled to half.": "The express unequal entitlements displace this suggested equal-division approach.",
+      "The trustees may equalise payments if they consider that the fairest use of their powers.": "Fairness does not enlarge a power expressly restricted by the instrument."
+    },
+    "why": "The decisive fact is that beneficial shares are fixed. Powers over investment and payment timing do not themselves authorise a redistribution of those shares."
+  },
+  {
+    "id": "scenario-1-2",
+    "unit": 1,
+    "kind": "mc",
+    "level": "scenario",
+    "prompt": "Trustees must distribute an education fund within four years among a defined class of former trainees. Priya is within that class and asks for one quarter because there are four eligible trainees. No appointment has been made and no share is fixed. Which statement best describes her position?",
+    "tested": "Discretionary object’s position versus a fixed share",
+    "answer": "She can require due administration, but membership alone does not establish a quarter share.",
+    "options": [
+      "She can require due administration, but membership alone does not establish a quarter share.",
+      "She owns a quarter beneficially, although payment can be withheld until the fourth year.",
+      "She has no enforceable position until an appointment is actually made in her favour.",
+      "She can compel equal appointment unless the trustees show that her need is lower.",
+      "She has a quarter of the income now, with only the capital remaining discretionary."
+    ],
+    "optionNotes": {
+      "She can require due administration, but membership alone does not establish a quarter share.": "This preserves her position without converting a discretion into fixed entitlement.",
+      "She owns a quarter beneficially, although payment can be withheld until the fourth year.": "Nothing in the stated terms fixes that fraction or separates it from distribution discretion.",
+      "She has no enforceable position until an appointment is actually made in her favour.": "Absence of a fixed share does not eliminate the right to proper trust administration.",
+      "She can compel equal appointment unless the trustees show that her need is lower.": "The facts do not impose an equal-distribution starting point or that burden.",
+      "She has a quarter of the income now, with only the capital remaining discretionary.": "The question gives no separate fixed income entitlement."
+    },
+    "why": "Priya’s membership matters to administration, but it does not itself give her a predetermined fraction of the property."
+  },
+  {
+    "id": "scenario-1-3",
+    "unit": 1,
+    "kind": "mc",
+    "level": "scenario",
+    "prompt": "An inter vivos trust gives all capital and accumulated income indefeasibly to Malik, aged 40, but directs payment at 60. Malik has capacity. There are no other beneficial interests, outstanding trust liabilities or conditions on his entitlement. The trustee refuses an immediate transfer solely because the settlor preferred long-term saving. What is the best advice?",
+    "tested": "Absolute entitlement versus postponed enjoyment",
+    "answer": "Malik can require transfer because he is the sole adult absolutely entitled beneficiary.",
+    "options": [
+      "Malik can require transfer because he is the sole adult absolutely entitled beneficiary.",
+      "Malik must wait until 60 because the payment direction makes his interest contingent.",
+      "Malik can obtain income immediately, but the capital direction remains binding until 60.",
+      "The trustee has a discretion to refuse if continued investment would benefit Malik.",
+      "The transfer needs the settlor’s consent because the trust was created during the settlor’s life."
+    ],
+    "optionNotes": {
+      "Malik can require transfer because he is the sole adult absolutely entitled beneficiary.": "The facts deliberately satisfy the termination conditions.",
+      "Malik must wait until 60 because the payment direction makes his interest contingent.": "The stem expressly makes entitlement indefeasible rather than conditional on reaching 60.",
+      "Malik can obtain income immediately, but the capital direction remains binding until 60.": "The absolute-entitlement analysis is not limited to current income.",
+      "The trustee has a discretion to refuse if continued investment would benefit Malik.": "A view about better financial planning does not itself defeat the stated termination right.",
+      "The transfer needs the settlor’s consent because the trust was created during the settlor’s life.": "The stem gives the settlor no retained beneficial interest or relevant reserved power."
+    },
+    "why": "All beneficial entitlement is vested in one capable adult. On the stated facts, the payment postponement and the settlor’s saving preference do not by themselves prevent termination."
+  },
+  {
+    "id": "scenario-2-1",
+    "unit": 2,
+    "kind": "mc",
+    "level": "scenario",
+    "prompt": "A donor intends an immediate gift of shares. She signs the correct transfer form, delivers it and the necessary certificate to the transferee, and completes every act required of her. The company’s registration is still pending. Assume no other defect or restriction. Which analysis is best?",
+    "tested": "Completion by the donor versus registration by another",
+    "answer": "The gift may be complete in equity although legal registration remains outstanding.",
+    "options": [
+      "The gift may be complete in equity although legal registration remains outstanding.",
+      "The gift remains ineffective in equity until the company changes the register.",
+      "The donor has instead declared herself trustee because the intended gift is incomplete.",
+      "The certificate creates only a contractual claim because the transferee gave no value.",
+      "The transferee owns legal title already because the donor has nothing left to do."
+    ],
+    "optionNotes": {
+      "The gift may be complete in equity although legal registration remains outstanding.": "This is the Re Rose distinction on the expressly stated facts.",
+      "The gift remains ineffective in equity until the company changes the register.": "That treats legal registration and equitable completion as necessarily simultaneous.",
+      "The donor has instead declared herself trustee because the intended gift is incomplete.": "A failed or pending transfer is not automatically a different intended disposition.",
+      "The certificate creates only a contractual claim because the transferee gave no value.": "Voluntary status does not prevent this recognised equitable-completion analysis.",
+      "The transferee owns legal title already because the donor has nothing left to do.": "The company’s outstanding registration still matters to legal title."
+    },
+    "why": "The donor has completed the steps required of her. The remaining registration step must be distinguished from a transfer still awaiting an act by the donor."
+  },
+  {
+    "id": "scenario-2-2",
+    "unit": 2,
+    "kind": "mc",
+    "level": "scenario",
+    "prompt": "A landowner orally declares that she holds a particular warehouse on trust for a named beneficiary. A month later she signs a letter accurately recording that declaration. Assume certainty and no other relevant defect. Which statement best identifies the significance of the letter?",
+    "tested": "Evidence of a declaration of land trust versus a transfer of title",
+    "answer": "It may supply the signed evidence required to prove the declaration respecting land.",
+    "options": [
+      "It may supply the signed evidence required to prove the declaration respecting land.",
+      "It cannot assist because an oral declaration of trust of land is necessarily void.",
+      "It automatically transfers the warehouse’s registered legal title to the beneficiary.",
+      "It operates only under section 53(1)(c), because every declaration disposes of an existing equitable interest.",
+      "It removes the need to establish intention, subject matter or objects."
+    ],
+    "optionNotes": {
+      "It may supply the signed evidence required to prove the declaration respecting land.": "The letter is relevant to the evidential requirement in section 53(1)(b).",
+      "It cannot assist because an oral declaration of trust of land is necessarily void.": "This overstates the effect of the statutory evidential requirement.",
+      "It automatically transfers the warehouse’s registered legal title to the beneficiary.": "Evidence of a trust declaration is not a conveyance of the legal estate.",
+      "It operates only under section 53(1)(c), because every declaration disposes of an existing equitable interest.": "Distinguish this owner’s declaration from a disposition of a subsisting equitable interest.",
+      "It removes the need to establish intention, subject matter or objects.": "Compliance with one formality does not supply the separate certainties."
+    },
+    "why": "Section 53(1)(b) concerns signed evidence manifesting and proving the declaration. It is not simply a rule requiring the declaration itself to have been signed at the moment it was spoken."
+  },
+  {
+    "id": "scenario-2-3",
+    "unit": 2,
+    "kind": "mc",
+    "level": "scenario",
+    "prompt": "A discretionary trust is for people who were employed by a named company on a specified date. The class definition is clear, but a fire destroyed some payroll records and one applicant cannot yet prove membership. Assume there is no separate administrative-unworkability problem. What is the strongest analysis?",
+    "tested": "Conceptual certainty versus evidence of individual membership",
+    "answer": "The evidential problem does not by itself make the clearly defined class conceptually uncertain.",
+    "options": [
+      "The evidential problem does not by itself make the clearly defined class conceptually uncertain.",
+      "The trust fails because the trustees cannot compile a complete list of all employees.",
+      "The applicant must be included because uncertainty is resolved against the trustees.",
+      "The trust becomes a mere power because the missing records reduce the trustees’ duties.",
+      "The class is conceptually uncertain because the applicant’s evidence is incomplete."
+    ],
+    "optionNotes": {
+      "The evidential problem does not by itself make the clearly defined class conceptually uncertain.": "The definition and proof of membership are distinct inquiries.",
+      "The trust fails because the trustees cannot compile a complete list of all employees.": "That imports the fixed-trust complete-list approach into this discretionary arrangement.",
+      "The applicant must be included because uncertainty is resolved against the trustees.": "The facts establish no such presumption of membership.",
+      "The trust becomes a mere power because the missing records reduce the trustees’ duties.": "An evidential difficulty does not rewrite the nature of the disposition.",
+      "The class is conceptually uncertain because the applicant’s evidence is incomplete.": "The stem expressly makes the meaning of the class clear."
+    },
+    "why": "Difficulty proving one person’s membership is not the same as an unclear class definition. Keep the appropriate discretionary-trust test separate from individual evidential questions."
+  },
+  {
+    "id": "scenario-3-1",
+    "unit": 3,
+    "kind": "mc",
+    "level": "scenario",
+    "prompt": "A settlor directs trustees to spend money on a private purpose. No person has a beneficial entitlement enabling enforcement. Assume the purpose is not charitable and falls within no recognised exception or alternative route to validity. A trustee is willing to carry it out. Which conclusion follows most directly?",
+    "tested": "Enforceability versus willingness to perform a purpose",
+    "answer": "The ordinary private-trust route fails despite the trustee’s willingness to act.",
+    "options": [
+      "The ordinary private-trust route fails despite the trustee’s willingness to act.",
+      "The trust is valid because voluntary performance removes the need for enforcement.",
+      "The trustees’ obligation is fixed, so the certainty of its purpose makes the trust valid.",
+      "The settlor automatically remains a beneficiary because the purpose is private.",
+      "The arrangement is charitable because the trustee has no personal interest in the fund."
+    ],
+    "optionNotes": {
+      "The ordinary private-trust route fails despite the trustee’s willingness to act.": "There is no enforceable beneficiary interest or stipulated valid purpose exception.",
+      "The trust is valid because voluntary performance removes the need for enforcement.": "Willing performance does not replace the legal requirement being tested.",
+      "The trustees’ obligation is fixed, so the certainty of its purpose makes the trust valid.": "Purpose certainty alone does not answer the separate enforceability objection.",
+      "The settlor automatically remains a beneficiary because the purpose is private.": "That entitlement cannot be inferred merely from the word private.",
+      "The arrangement is charitable because the trustee has no personal interest in the fund.": "The question expressly excludes charity; disinterested administration does not establish it."
+    },
+    "why": "The problem stipulates away the recognised routes that might rescue a purpose arrangement. The trustee’s willingness does not itself satisfy the beneficiary principle."
+  },
+  {
+    "id": "scenario-3-2",
+    "unit": 3,
+    "kind": "mc",
+    "level": "scenario",
+    "prompt": "A proposed trust funds school fees for children of employees of two specified companies. The class numbers several thousand and the educational benefit is genuine. The deed contains no poverty-relief purpose. Which is the most important unresolved obstacle to treating the trust as charitable?",
+    "tested": "Charitable description versus the public class",
+    "answer": "The employment nexus raises a public-class obstacle despite the large numbers.",
+    "options": [
+      "The employment nexus raises a public-class obstacle despite the large numbers.",
+      "The trust must pass public benefit because the beneficiary class is sufficiently numerous.",
+      "The trust fails because education cannot be charitable when individuals receive money.",
+      "The absence of poverty relief means educational benefit cannot be recognised.",
+      "The trust is valid once its purpose falls within the statutory educational description."
+    ],
+    "optionNotes": {
+      "The trust must pass public benefit because the beneficiary class is sufficiently numerous.": "Numbers alone do not remove the personal-nexus issue.",
+      "The trust fails because education cannot be charitable when individuals receive money.": "A benefit to individuals does not itself exclude a charitable educational purpose.",
+      "The absence of poverty relief means educational benefit cannot be recognised.": "Poverty relief is not a prerequisite for every educational charity.",
+      "The trust is valid once its purpose falls within the statutory educational description.": "A description of charitable purpose does not dispense with public benefit.",
+      "The employment nexus raises a public-class obstacle despite the large numbers.": "This addresses the public aspect, rather than merely the existence of educational benefit."
+    },
+    "why": "Education and a large number of potential beneficiaries do not by themselves settle public benefit. The employment connection raises the personal-nexus issue illustrated by Oppenheim."
+  },
+  {
+    "id": "scenario-3-3",
+    "unit": 3,
+    "kind": "mc",
+    "level": "scenario",
+    "prompt": "A lender advances money for a proposed equipment project. The written agreement expressly permits the borrower to use the money freely in its ordinary business, requiring repayment if the project is abandoned. No other evidence indicates a proprietary restriction. The borrower becomes insolvent. Which analysis is strongest?",
+    "tested": "Restricted use of property versus a contractual repayment obligation",
+    "answer": "The free-use term points towards a debtor-creditor relationship on these facts.",
+    "options": [
+      "The free-use term points towards a debtor-creditor relationship on these facts.",
+      "Naming the equipment project necessarily gives the lender a proprietary claim.",
+      "The advance cannot involve a trust because a loan and a trust can never coexist.",
+      "The lender obtains proprietary rights when insolvency makes repayment unlikely.",
+      "A duty to repay on failure is sufficient to establish that the borrower never owned the money beneficially."
+    ],
+    "optionNotes": {
+      "The free-use term points towards a debtor-creditor relationship on these facts.": "It is the permitted use, not merely the project label, that is decisive here.",
+      "Naming the equipment project necessarily gives the lender a proprietary claim.": "The project description must be read with the express permission for free use.",
+      "The advance cannot involve a trust because a loan and a trust can never coexist.": "That reason is too broad, even though a debt analysis is strong on these facts.",
+      "The lender obtains proprietary rights when insolvency makes repayment unlikely.": "Insolvency does not itself create the missing proprietary restriction.",
+      "A duty to repay on failure is sufficient to establish that the borrower never owned the money beneficially.": "A personal repayment obligation is not necessarily a trust obligation."
+    },
+    "why": "The express freedom to use the money points against the necessary proprietary restriction. A project description and a repayment obligation do not alone establish a Quistclose-type trust."
+  },
+  {
+    "id": "scenario-4-1",
+    "unit": 4,
+    "kind": "mc",
+    "level": "scenario",
+    "prompt": "Two friends buy a domestic home in joint names. Their valid signed declaration expressly fixes beneficial shares at 60% and 40%. No challenge to that declaration, later variation or different later agreement is alleged. One now asks for 75% because they subsequently paid more household costs. Which starting point is strongest?",
+    "tested": "Express declaration versus default ownership inference",
+    "answer": "Apply the express shares on the stated facts.",
+    "options": [
+      "Apply the express shares on the stated facts.",
+      "Presume equal shares because domestic joint legal title overrides unequal declarations.",
+      "Infer new shares automatically from all later household payments.",
+      "Apply purchase-money resulting-trust proportions without reading the declaration.",
+      "Choose the fairest division because the parties’ separation ends the declaration."
+    ],
+    "optionNotes": {
+      "Presume equal shares because domestic joint legal title overrides unequal declarations.": "Joint-name defaults do not simply erase a valid express declaration.",
+      "Infer new shares automatically from all later household payments.": "Later payments alone do not establish the excluded later variation or agreement.",
+      "Apply purchase-money resulting-trust proportions without reading the declaration.": "This disregards both the express terms and the need to choose the correct route.",
+      "Choose the fairest division because the parties’ separation ends the declaration.": "Separation does not itself undo the declared beneficial ownership.",
+      "Apply the express shares on the stated facts.": "The stated declaration, not a default presumption, supplies the starting entitlement."
+    },
+    "why": "The facts give an express declaration and exclude a challenge or later change. Default inferences from contributions should not simply replace those expressed shares."
+  },
+  {
+    "id": "scenario-4-2",
+    "unit": 4,
+    "kind": "mc",
+    "level": "scenario",
+    "prompt": "Two unrelated business associates buy a parcel as an investment, not a shared home. Quinn supplies 80% of the purchase price and Ren 20%, both at acquisition. Title goes into Quinn’s sole name. There is no express declaration, evidence of gift or other contrary intention. Which route should be considered first?",
+    "tested": "Purchase-money resulting trust versus domestic joint-name analysis",
+    "answer": "Consider a presumed resulting trust reflecting the purchase-money contributions.",
+    "options": [
+      "Consider a presumed resulting trust reflecting the purchase-money contributions.",
+      "Start with equal beneficial shares because both intended the investment to succeed.",
+      "Apply the domestic joint-name presumption because two people contributed money.",
+      "Treat Ren’s payment as a gift because Ren is absent from the legal title.",
+      "Use proprietary estoppel without identifying an assurance or reliance."
+    ],
+    "optionNotes": {
+      "Consider a presumed resulting trust reflecting the purchase-money contributions.": "The source and timing of the acquisition money support this starting route, subject to rebuttal.",
+      "Start with equal beneficial shares because both intended the investment to succeed.": "Shared commercial objectives do not establish equal ownership.",
+      "Apply the domestic joint-name presumption because two people contributed money.": "The property is neither a joint-name purchase nor their domestic home.",
+      "Treat Ren’s payment as a gift because Ren is absent from the legal title.": "The absence of legal title does not itself establish an intention to make a gift.",
+      "Use proprietary estoppel without identifying an assurance or reliance.": "The stated purchase-money facts provide a more direct route; estoppel has separate elements."
+    },
+    "why": "Contemporaneous purchase contributions in this non-domestic setting point towards a purchase-money resulting-trust analysis. Do not import a domestic joint-name presumption into these different facts."
+  },
+  {
+    "id": "scenario-4-3",
+    "unit": 4,
+    "kind": "mc",
+    "level": "scenario",
+    "prompt": "A workshop owner gives a neighbour an assurance of lasting use of a small adjoining area. In reliance, the neighbour incurs substantial expenditure. Assume the court has already found a proprietary-estoppel equity. The neighbour now demands transfer of the owner’s entire freehold. What should the remedy analysis focus on?",
+    "tested": "An established equity versus the particular relief",
+    "answer": "Identify relief appropriate to the established equity rather than assume whole-title transfer.",
+    "options": [
+      "Identify relief appropriate to the established equity rather than assume whole-title transfer.",
+      "Transfer the entire freehold because any established equity gives ownership of the legal estate.",
+      "Award only expenditure in every case because expectations are legally irrelevant.",
+      "Reject relief because there was no concluded contract for the freehold.",
+      "Divide the freehold equally because equitable relief follows equal treatment."
+    ],
+    "optionNotes": {
+      "Identify relief appropriate to the established equity rather than assume whole-title transfer.": "The remedy must be separately reasoned, in light of the assurance, detriment and relevant circumstances.",
+      "Transfer the entire freehold because any established equity gives ownership of the legal estate.": "That makes relief automatic and ignores the limited assurance in the facts.",
+      "Award only expenditure in every case because expectations are legally irrelevant.": "This substitutes an equally rigid rule for the actual remedial analysis.",
+      "Reject relief because there was no concluded contract for the freehold.": "The question stipulates an estoppel equity; contractual enforceability is not the remaining test.",
+      "Divide the freehold equally because equitable relief follows equal treatment.": "An equal share has not been established by the assurance or a rule of automatic division."
+    },
+    "why": "The liability stage is expressly complete. The remaining task is to justify relief in the circumstances; neither the existence of an equity nor expenditure alone dictates transfer of the whole title."
+  },
+  {
+    "id": "scenario-5-1",
+    "unit": 5,
+    "kind": "mc",
+    "level": "scenario",
+    "prompt": "A private trust instrument permits investment only in specified UK government bonds. A professional adviser recommends a well-diversified overseas share portfolio. The trustees buy it carefully and it gains value. There is no beneficiary or court authorisation varying the restriction. Which statement is best?",
+    "tested": "Authority versus careful exercise and beneficial outcome",
+    "answer": "The purchase falls outside the expressly restricted investment power.",
+    "options": [
+      "The purchase falls outside the expressly restricted investment power.",
+      "The general statutory investment power overrides this investment restriction.",
+      "The adviser’s expertise supplies authority that the instrument withholds.",
+      "No breach is possible unless the beneficiaries first prove a financial loss.",
+      "Diversification validates the purchase because it takes priority over the instrument."
+    ],
+    "optionNotes": {
+      "The general statutory investment power overrides this investment restriction.": "The statutory power is subject to applicable restrictions in the instrument.",
+      "The adviser’s expertise supplies authority that the instrument withholds.": "Advice can inform exercise of a power; it does not amend the instrument.",
+      "No breach is possible unless the beneficiaries first prove a financial loss.": "The authority issue can arise independently of whether compensable loss followed.",
+      "Diversification validates the purchase because it takes priority over the instrument.": "An investment criterion is not a power to disregard an express restriction.",
+      "The purchase falls outside the expressly restricted investment power.": "Authority is distinct from care and from the eventual financial outcome."
+    },
+    "why": "The express restriction must be addressed before the quality of the investment process. Care, advice and a favourable outcome do not themselves create an absent investment power."
+  },
+  {
+    "id": "scenario-5-2",
+    "unit": 5,
+    "kind": "mc",
+    "level": "scenario",
+    "prompt": "Trustees invest most of a liquid fund in one speculative company without examining suitability, diversification or advice. It later loses value. They say the loss proves the amount of compensation; a beneficiary says any concentration automatically makes the whole fund repayable. Which analysis is best?",
+    "tested": "Defective investment process versus proof and measure of loss",
+    "answer": "Assess the investment duties and causal loss separately before fixing compensation.",
+    "options": [
+      "Assess the investment duties and causal loss separately before fixing compensation.",
+      "Order repayment of the whole fund because one unsuitable investment invalidates the trust.",
+      "Reject breach because investment losses are merely market events.",
+      "Find liability solely from concentration without considering its appropriateness to this trust.",
+      "Use the final fall in value as the measure without examining what proper administration would have changed."
+    ],
+    "optionNotes": {
+      "Assess the investment duties and causal loss separately before fixing compensation.": "This addresses both the flawed process and the additional remedial questions.",
+      "Order repayment of the whole fund because one unsuitable investment invalidates the trust.": "An investment breach does not on that basis invalidate the trust or fix this measure.",
+      "Reject breach because investment losses are merely market events.": "The specified failures of consideration and advice cannot be dismissed by naming market risk.",
+      "Find liability solely from concentration without considering its appropriateness to this trust.": "Diversification is considered so far as appropriate, not as an absolute asset-count rule.",
+      "Use the final fall in value as the measure without examining what proper administration would have changed.": "The relevant causal and remedial inquiry cannot simply be omitted."
+    },
+    "why": "The process raises serious duty issues. But breach, causally relevant loss and the measure of compensation still require analysis; neither concentration nor loss alone proves every remedy."
+  },
+  {
+    "id": "scenario-5-3",
+    "unit": 5,
+    "kind": "mc",
+    "level": "scenario",
+    "prompt": "Trustees properly appoint an authorised investment manager after careful selection. Later reports flag repeated departures from the mandate, but the trustees do not examine them or consider intervention. They argue that proper initial selection ended their investment responsibilities. What is the best response?",
+    "tested": "Initial delegation versus continuing review",
+    "answer": "Proper appointment does not answer the later failure to review the mandate departures.",
+    "options": [
+      "Proper appointment does not answer the later failure to review the mandate departures.",
+      "Only the manager can be liable once the delegation was properly authorised.",
+      "The trustees automatically guarantee every loss made by an appointed manager.",
+      "The trustees must have breached their duties merely by delegating investments.",
+      "The review question arises only if a beneficiary had first objected in writing."
+    ],
+    "optionNotes": {
+      "Proper appointment does not answer the later failure to review the mandate departures.": "The alleged failure concerns ongoing oversight, not merely initial selection.",
+      "Only the manager can be liable once the delegation was properly authorised.": "Authorisation does not necessarily eliminate the trustees’ own later duties.",
+      "The trustees automatically guarantee every loss made by an appointed manager.": "That is strict outcome liability, not the required inquiry into their conduct.",
+      "The trustees must have breached their duties merely by delegating investments.": "The stem expressly makes appointment authorised and carefully undertaken.",
+      "The review question arises only if a beneficiary had first objected in writing.": "The stated continuing obligations are not made dependent on that complaint."
+    },
+    "why": "Careful selection is important but does not dispose of the relevant ongoing review obligations. The ignored warnings require analysis within the applicable delegation framework."
+  },
+  {
+    "id": "scenario-6-1",
+    "unit": 6,
+    "kind": "mc",
+    "level": "scenario",
+    "prompt": "A purchasing agent negotiates a machinery contract for a client and secretly accepts a supplier’s commission arising from that agency. The machinery is good value and the client cannot show a financial loss. No authorisation or informed consent exists. Which analysis is strongest?",
+    "tested": "Unauthorised fiduciary gain versus compensation for loss",
+    "answer": "The commission can attract a gain-based and proprietary response despite the absence of loss.",
+    "options": [
+      "The commission can attract a gain-based and proprietary response despite the absence of loss.",
+      "Only a negligence claim is available because the client received the machinery it expected.",
+      "The commission is protected if the agent would have recommended the supplier anyway.",
+      "The client must first establish that the commission increased the contract price.",
+      "A personal account may arise, but a secret commission cannot be held on trust."
+    ],
+    "optionNotes": {
+      "The commission can attract a gain-based and proprietary response despite the absence of loss.": "The relevant issue is the unauthorised benefit received through the fiduciary position.",
+      "Only a negligence claim is available because the client received the machinery it expected.": "That confuses a care claim with the distinct loyalty and gain issue.",
+      "The commission is protected if the agent would have recommended the supplier anyway.": "The suggested counterfactual does not provide the absent authorisation or consent.",
+      "The client must first establish that the commission increased the contract price.": "That is not a necessary starting requirement for the unauthorised-profit claim described.",
+      "A personal account may arise, but a secret commission cannot be held on trust.": "FHR rejects that limitation on the proprietary consequences of this kind of gain."
+    },
+    "why": "The undisclosed commission arises from the agency. Lack of demonstrated loss does not by itself answer the loyalty-based response to that gain."
+  },
+  {
+    "id": "scenario-6-2",
+    "unit": 6,
+    "kind": "mc",
+    "level": "scenario",
+    "prompt": "A trustee proposes a transaction involving a personal conflict. The instrument gives no relevant authorisation and no court order exists. Two adult beneficiaries together hold the whole beneficial interest. One receives full disclosure and consents; the other is not told about the personal interest. Which conclusion is best?",
+    "tested": "Consent by one person versus fully informed consent from all required persons",
+    "answer": "The first beneficiary’s consent does not supply the second beneficiary’s informed consent.",
+    "options": [
+      "The first beneficiary’s consent does not supply the second beneficiary’s informed consent.",
+      "The first consent authorises the transaction because every beneficiary can bind the fund.",
+      "The second beneficiary’s silence is sufficient because the first had full disclosure.",
+      "The transaction is authorised if it later proves financially beneficial to both.",
+      "No consent can ever authorise a fiduciary conflict, even from all entitled adults."
+    ],
+    "optionNotes": {
+      "The first beneficiary’s consent does not supply the second beneficiary’s informed consent.": "The second person has not been informed, and the stated facts give no substitute authority.",
+      "The first consent authorises the transaction because every beneficiary can bind the fund.": "One beneficiary does not automatically speak for the other.",
+      "The second beneficiary’s silence is sufficient because the first had full disclosure.": "Information supplied to one person is not necessarily disclosure to another.",
+      "The transaction is authorised if it later proves financially beneficial to both.": "A favourable outcome is not the missing informed authorisation.",
+      "No consent can ever authorise a fiduciary conflict, even from all entitled adults.": "The issue is valid authorisation, not an absolute impossibility of consent."
+    },
+    "why": "One informed consent does not supply the missing consent of the other person whose entitlement is affected. The question gives no alternative authorising source."
+  },
+  {
+    "id": "scenario-6-3",
+    "unit": 6,
+    "kind": "mc",
+    "level": "scenario",
+    "prompt": "A professional trustee carelessly misses an administrative deadline and causes a financial loss. No conflict, personal gain or other disloyal conduct is alleged. The beneficiary seeks an account of the trustee’s profits solely because the trustee is a fiduciary. What is the strongest analysis?",
+    "tested": "Character of the breached duty and matching the response",
+    "answer": "Analyse compensation for the care breach, not a presumed profit claim.",
+    "options": [
+      "Analyse compensation for the care breach, not a presumed profit claim.",
+      "Require an account of profits because every trustee breach is a loyalty breach.",
+      "Reject all relief because the beneficiary alleges no dishonesty.",
+      "Treat the administrative loss as a proprietary asset automatically owned by the beneficiary.",
+      "Allow a profit claim only if the trustee had professional rather than personal experience."
+    ],
+    "optionNotes": {
+      "Require an account of profits because every trustee breach is a loyalty breach.": "The character of each duty still matters.",
+      "Reject all relief because the beneficiary alleges no dishonesty.": "A care-based claim does not require the trustee to have acted dishonestly.",
+      "Treat the administrative loss as a proprietary asset automatically owned by the beneficiary.": "A loss does not by itself identify substitute property for a proprietary claim.",
+      "Allow a profit claim only if the trustee had professional rather than personal experience.": "Professional status does not supply the absent unauthorised gain.",
+      "Analyse compensation for the care breach, not a presumed profit claim.": "This matches the alleged conduct and remedy to the particular duty."
+    },
+    "why": "The alleged wrong concerns careless administration and resulting loss. A fiduciary relationship alone does not turn every breach into a gain-based loyalty claim."
+  },
+  {
+    "id": "scenario-7-1",
+    "unit": 7,
+    "kind": "mc",
+    "level": "scenario",
+    "prompt": "A trustee buys an asset with misapplied trust money and transfers legal title to a purchaser who pays value, acts in good faith and has no notice of the equitable interest. Assume that defence’s requirements are met. The beneficiary can trace the transactions. What is the strongest conclusion?",
+    "tested": "Tracing a transaction versus defeating an intervening purchaser defence",
+    "answer": "The established purchaser defence can defeat proprietary recovery despite the tracing history.",
+    "options": [
+      "The established purchaser defence can defeat proprietary recovery despite the tracing history.",
+      "Tracing establishes priority over the purchaser regardless of the defence.",
+      "The purchaser is personally liable in knowing receipt because the value is traceable.",
+      "Payment of value alone is enough, so good faith and notice are irrelevant.",
+      "The beneficiary must lose every personal claim against the original trustee as well."
+    ],
+    "optionNotes": {
+      "The established purchaser defence can defeat proprietary recovery despite the tracing history.": "Tracing and the effect of an intervening legal interest are distinct inquiries.",
+      "Tracing establishes priority over the purchaser regardless of the defence.": "That treats the evidential process as an answer to every property-law limit.",
+      "The purchaser is personally liable in knowing receipt because the value is traceable.": "The stated good faith and absence of notice do not establish the required mental element.",
+      "Payment of value alone is enough, so good faith and notice are irrelevant.": "The question expressly provides several requirements of the defence; value is not the whole test.",
+      "The beneficiary must lose every personal claim against the original trustee as well.": "A defence available to this holder does not automatically extinguish a separate personal claim."
+    },
+    "why": "Tracing does not override a defence that the facts expressly establish. Separate identifying substitute value from entitlement against this holder."
+  },
+  {
+    "id": "scenario-7-2",
+    "unit": 7,
+    "kind": "mc",
+    "level": "scenario",
+    "prompt": "Solicitors acting as trustees breach an instruction governing a commercial payment. The claimant seeks every loss on the transaction. Evidence shows that part of the eventual loss would have occurred even if the instruction had been obeyed. Which approach to equitable compensation is best?",
+    "tested": "Breach of instruction versus causally relevant compensable loss",
+    "answer": "Identify the loss attributable to the breach of the particular duty.",
+    "options": [
+      "Identify the loss attributable to the breach of the particular duty.",
+      "Award every transaction loss because a trustee’s breach removes all questions of causation.",
+      "Reject compensation entirely because part of the loss would have occurred anyway.",
+      "Award an account of the claimant’s lost profits without identifying a defendant’s gain.",
+      "Measure the award only by the solicitors’ fee for carrying out the transaction."
+    ],
+    "optionNotes": {
+      "Award every transaction loss because a trustee’s breach removes all questions of causation.": "That overstates the compensatory consequence of the breach.",
+      "Reject compensation entirely because part of the loss would have occurred anyway.": "That does not establish that no loss is attributable to the breach.",
+      "Award an account of the claimant’s lost profits without identifying a defendant’s gain.": "That confuses loss-based compensation with a gain-based account.",
+      "Measure the award only by the solicitors’ fee for carrying out the transaction.": "The fee does not itself determine loss caused by the relevant breach.",
+      "Identify the loss attributable to the breach of the particular duty.": "This is the required separation of wrongdoing from the measure of compensation."
+    },
+    "why": "Identify what the breached duty protected against and the relevant causal connection. The existence of a breach does not automatically attribute all transaction loss to it."
+  },
+  {
+    "id": "scenario-7-3",
+    "unit": 7,
+    "kind": "mc",
+    "level": "scenario",
+    "prompt": "A trustee seeks relief under section 61 Trustee Act 1925. The court finds that the trustee acted honestly but unreasonably. The trustee argues that honesty and personal hardship make relief automatic. Which statement is best?",
+    "tested": "Cumulative conditions versus automatic relief for honesty",
+    "answer": "The reasonableness condition is unsatisfied despite the finding of honesty.",
+    "options": [
+      "The reasonableness condition is unsatisfied despite the finding of honesty.",
+      "Relief follows automatically because honesty is the only substantive condition.",
+      "Hardship converts unreasonable conduct into reasonable conduct for this provision.",
+      "The provision applies only to professional trustees, so the trustee’s status decides the issue.",
+      "Relief is unavailable whenever a breach has caused loss, regardless of conduct."
+    ],
+    "optionNotes": {
+      "Relief follows automatically because honesty is the only substantive condition.": "That omits reasonableness and fair excusal.",
+      "Hardship converts unreasonable conduct into reasonable conduct for this provision.": "The stem supplies no such substitution for the court’s finding.",
+      "The provision applies only to professional trustees, so the trustee’s status decides the issue.": "That proposed restriction does not state the applicable test.",
+      "Relief is unavailable whenever a breach has caused loss, regardless of conduct.": "The provision concerns relief for breach; the existence of loss is not this absolute bar.",
+      "The reasonableness condition is unsatisfied despite the finding of honesty.": "The question tests the additional statutory requirements, not merely discretion after all are met."
+    },
+    "why": "Honesty is not the only statutory condition. The adverse finding on reasonableness cannot be replaced by sympathy, and relief is not automatic."
+  },
+  {
+    "id": "scenario-8-1",
+    "unit": 8,
+    "kind": "mc",
+    "level": "scenario",
+    "prompt": "A recipient knowingly takes an asset transferred in breach of trust. Under the applicable law, the transfer extinguishes the claimant’s equitable proprietary interest before the recipient holds the asset. Assume that conclusion is established. Can knowledge alone sustain knowing receipt?",
+    "tested": "Mental element versus the continuing proprietary basis",
+    "answer": "No; the established extinction of the equitable interest defeats that essential property requirement.",
+    "options": [
+      "No; the established extinction of the equitable interest defeats that essential property requirement.",
+      "Yes; sufficiently serious knowledge replaces the need for a continuing interest.",
+      "Yes; a breach of trust makes every later transfer legally incapable of affecting title.",
+      "No; knowing receipt is restricted to recipients who also dishonestly assist.",
+      "Yes; knowing receipt is proprietary, so it requires neither beneficial receipt nor knowledge."
+    ],
+    "optionNotes": {
+      "No; the established extinction of the equitable interest defeats that essential property requirement.": "The mental element does not replace the distinct proprietary basis.",
+      "Yes; sufficiently serious knowledge replaces the need for a continuing interest.": "That collapses two separate requirements.",
+      "Yes; a breach of trust makes every later transfer legally incapable of affecting title.": "The stem expressly establishes extinction under the applicable law.",
+      "No; knowing receipt is restricted to recipients who also dishonestly assist.": "Receipt and assistance are separate routes, not cumulative requirements in this way.",
+      "Yes; knowing receipt is proprietary, so it requires neither beneficial receipt nor knowledge.": "A personal knowing-receipt claim has its own elements; the label does not remove them."
+    },
+    "why": "Byers requires the relevant continuing equitable proprietary interest. Awareness cannot revive an interest that the applicable law has extinguished."
+  },
+  {
+    "id": "scenario-8-2",
+    "unit": 8,
+    "kind": "mc",
+    "level": "scenario",
+    "prompt": "An accounts consultant helps divert trust money. She receives none of it. She knows the relevant facts and conceals the diversion, but says she personally regards that business practice as acceptable. Assume an underlying breach and actual assistance are proved. Which inquiry is correct?",
+    "tested": "Receipt versus assistance; factual belief versus personal moral standard",
+    "answer": "Apply ordinary standards to her actual factual knowledge or belief.",
+    "options": [
+      "Apply ordinary standards to her actual factual knowledge or belief.",
+      "Require beneficial receipt before considering whether her assistance was dishonest.",
+      "Accept her personal view of business morality as determinative of honesty.",
+      "Require proof that the trustee was dishonest before examining the consultant’s conduct.",
+      "Treat any careless assistance as sufficient because concealment removes the mental-element requirement."
+    ],
+    "optionNotes": {
+      "Require beneficial receipt before considering whether her assistance was dishonest.": "That imports a separate receipt requirement.",
+      "Accept her personal view of business morality as determinative of honesty.": "The standard is not whatever this defendant considers acceptable.",
+      "Require proof that the trustee was dishonest before examining the consultant’s conduct.": "The underlying trustee need not themselves be dishonest for this route.",
+      "Treat any careless assistance as sufficient because concealment removes the mental-element requirement.": "The mental element must still be established; negligence is not a substitute.",
+      "Apply ordinary standards to her actual factual knowledge or belief.": "This uses the assistance route and the correct structure of the dishonesty inquiry."
+    },
+    "why": "Dishonest assistance does not require receipt. Establish the actual factual knowledge or belief, then apply ordinary standards, rather than the defendant’s private standard."
+  },
+  {
+    "id": "scenario-8-3",
+    "unit": 8,
+    "kind": "mc",
+    "level": "scenario",
+    "prompt": "An innocent volunteer is given an identifiable trust asset following an unauthorised transfer. The claimant’s equitable interest persists and no other defence is established. The volunteer has not assisted any breach and lacks the knowledge needed for knowing receipt. Which claim distinction is best?",
+    "tested": "Proprietary recovery versus personal third-party liability",
+    "answer": "Proprietary recovery may remain available although the stated facts do not establish personal third-party liability.",
+    "options": [
+      "Proprietary recovery may remain available although the stated facts do not establish personal third-party liability.",
+      "All recovery fails because an innocent volunteer is in the same position as a purchaser for value.",
+      "Knowing receipt follows automatically because the volunteer still has the asset.",
+      "Dishonest assistance follows because accepting a gift necessarily assists the original breach dishonestly.",
+      "Only compensation for investment loss is possible because proprietary relief always requires dishonesty."
+    ],
+    "optionNotes": {
+      "Proprietary recovery may remain available although the stated facts do not establish personal third-party liability.": "The continuing interest and identifiable asset matter independently of the absent personal mental elements.",
+      "All recovery fails because an innocent volunteer is in the same position as a purchaser for value.": "Innocence alone does not supply value and every other purchaser-defence requirement.",
+      "Knowing receipt follows automatically because the volunteer still has the asset.": "Holding the asset does not itself establish the stipulated missing knowledge.",
+      "Dishonest assistance follows because accepting a gift necessarily assists the original breach dishonestly.": "The stem expressly excludes assistance and does not establish dishonesty.",
+      "Only compensation for investment loss is possible because proprietary relief always requires dishonesty.": "A proprietary claim is not generally dependent on the holder’s dishonesty in that way."
+    },
+    "why": "The absence of a personal knowing-receipt or assistance claim does not itself settle a proprietary claim. The holder is a volunteer, not a purchaser for value."
   }
 ];
