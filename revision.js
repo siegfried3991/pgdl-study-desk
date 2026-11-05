@@ -19,7 +19,7 @@ $('unit-path').innerHTML=units.map(u=>{const ids=bank.filter(q=>q.unit===u.numbe
 $('unit-path').querySelectorAll('[data-unit]').forEach(b=>b.onclick=()=>{$('topic').value=b.dataset.unit;start(false);});
 }
 function screen(id){['setup','round','result'].forEach(x=>$(x).hidden=x!==id);}
-function pool(){return bank.filter(q=>($('topic').value==='all'||q.unit===Number($('topic').value))&&($('format').value==='mixed'||q.kind===$('format').value));}
+function pool(){return bank.filter(q=>($('topic').value==='all'||q.unit===Number($('topic').value))&&($('format').value==='mixed'||q.kind===$('format').value)&&($('level').value==='all'||q.level===$('level').value));}
 function start(mistakes,custom){
  if(saved.active&&!window.confirm('Replace your saved round with a new one? Checked answers and earned XP will remain.'))return;
  let qs=custom|| (mistakes?bank.filter(q=>saved.missed.includes(q.id)):pool());
@@ -35,7 +35,7 @@ function current(){const a=saved.active,item=a.items[a.index];return {a,item,q:b
 function render(){if(!saved.active){screen('setup');stats();return;}screen('round');const {a,item,q}=current();selected=item.chosen;
  $('round-count').textContent=`Question ${a.index+1} of ${a.items.length}`;$('combo').textContent=a.combo>1?`${a.combo} correct in a row`:'';
  $('round-progress').max=a.items.length;$('round-progress').value=a.items.filter(i=>i.correct!==null).length;
- $('question-type').textContent=`Unit ${q.unit} · ${q.kind==='mc'?'Multiple choice':'Word-bank blank'}`;
+ $('question-type').textContent=`Unit ${q.unit} · ${q.level==='advanced'?'Applied / harder':'Foundation'} · ${q.kind==='mc'?'Multiple choice':'Word-bank blank'}`;
  $('question-help').textContent=q.kind==='mc'?'Choose the single best answer.':'Choose the option that completes the rule.';
  $('round-title').innerHTML=esc(q.prompt).replace('___',`<span class="blank">${esc(selected===null?'…':selected)}</span>`);
  $('options').className='options'+(q.kind==='blank'?' wordbank':'');
@@ -46,7 +46,7 @@ function render(){if(!saved.active){screen('setup');stats();return;}screen('roun
  if(item.correct!==null)feedback(q,item);
  $('round-title').focus({preventScroll:true});
 }
-function feedback(q,item){const u=units.find(u=>u.number===q.unit);$('feedback').className='feedback'+(item.correct?'':' wrong');$('feedback').innerHTML=`<strong>${item.correct?'Correct — keep going.':'Not quite — here is the distinction.'}</strong><p><b>Best answer:</b> ${esc(q.answer)}</p><p>${esc(q.why)}</p><a href="index.html#eq-${q.unit}" target="_blank" rel="noopener">Review Unit ${q.unit} notes</a><a href="${esc(study.subjects.equity.course)}" target="_blank" rel="noopener">Assigned course materials (sign-in)</a><p class="small">Practice source: ${esc(u.title)}, existing Study Desk revision notes. Follow the unit’s readings for the full rule.</p>`;}
+function feedback(q,item){const u=units.find(u=>u.number===q.unit);$('feedback').className='feedback'+(item.correct?'':' wrong');$('feedback').innerHTML=`<strong>${item.correct?'Correct — keep going.':'Not quite — here is the distinction.'}</strong><p><b>Best answer:</b> ${esc(q.answer)}</p><p>${esc(q.why)}</p><a href="index.html#eq-${q.unit}" target="_blank" rel="noopener">Review Unit ${q.unit} notes</a><a href="exam-prep.html#read-${q.unit}" target="_blank" rel="noopener">Reading guide &amp; written practice</a><a href="${esc(study.subjects.equity.course)}" target="_blank" rel="noopener">Assigned course materials (sign-in)</a><p class="small">Practice source: ${esc(u.title)}, existing Study Desk revision notes. Follow the unit’s readings for the full rule.</p>`;}
 $('check').onclick=()=>{const {a,item,q}=current();if(selected===null||item.correct!==null)return;item.chosen=selected;item.correct=selected===q.answer;if(item.correct){a.combo++;if(!saved.correct.includes(q.id)){saved.correct.push(q.id);saved.xp+=10;}saved.missed=saved.missed.filter(id=>id!==q.id);}else{a.combo=0;if(!saved.missed.includes(q.id))saved.missed.push(q.id);}persist();stats();render();$('next').focus({preventScroll:true});};
 function finish(){const a=saved.active;let correct=a.items.filter(x=>x.correct).length;saved.xp+=5;if(!saved.days.includes(hkDay()))saved.days.push(hkDay());const misses=a.items.filter(i=>!i.correct).map(i=>bank.find(q=>q.id===i.id));saved.active=null;persist();stats();screen('result');$('result-title').textContent=`${correct} / ${a.items.length} on your first try`;$('result-message').textContent=misses.length?`Round complete: +5 XP. Revisit ${misses.length} distinction${misses.length===1?'':'s'}, then try those questions again.`:'Round complete: +5 XP. All correct this round. Try another unit or explain each rule aloud without the options.';
 $('round-review').innerHTML=a.items.map(i=>{const q=bank.find(q=>q.id===i.id);return `<details><summary>${i.correct?'✓ Correct':'↻ Review'} · ${esc(q.prompt)}</summary><p>Your answer: ${esc(i.chosen)}</p><p><b>Best answer:</b> ${esc(q.answer)}</p><p>${esc(q.why)}</p><a href="index.html#eq-${q.unit}" target="_blank" rel="noopener">Review Unit ${q.unit}</a></details>`;}).join('');$('retry').hidden=!misses.length;$('retry').onclick=()=>start(true,misses);$('result-title').focus({preventScroll:true});}
@@ -55,5 +55,6 @@ $('pause').onclick=()=>{persist();screen('setup');stats();$('resume').focus();};
 $('start').onclick=()=>start(false);$('mistakes').onclick=()=>start(true);$('resume').onclick=render;$('another').onclick=()=>{screen('setup');stats();$('start').focus();};
 $('reset').onclick=()=>{if(window.confirm('Reset only practice XP, mistakes, streak and saved round? Your main Study Desk progress will stay in place.')){saved={correct:[],missed:[],xp:0,days:[],active:null};persist();screen('setup');stats();}};
 units.forEach(u=>{const o=document.createElement('option');o.value=u.number;o.textContent=`Unit ${u.number}: ${u.title}`;$('topic').append(o);});
+const requested=new URLSearchParams(location.search);if(['all','foundation','advanced'].includes(requested.get('level')))$('level').value=requested.get('level');if(units.some(u=>String(u.number)===requested.get('unit')))$('topic').value=requested.get('unit');
 stats();screen('setup');
 })();
