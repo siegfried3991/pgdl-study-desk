@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Equity practice rounds · PgDL Study Desk</title>
+<meta name="description" content="Short Equity and Trusts revision rounds: multiple choice, word-bank blanks, explanations and a personal mistake review.">
+<meta name="theme-color" content="#192c43">
+<link rel="stylesheet" href="revision.css?v=20261105-1">
+<script defer src="content.js?v=20261101-2"></script>
+<script defer src="revision-data.js?v=20261105-1"></script>
+<script defer src="revision.js?v=20261105-1"></script>
+</head>
+<body>
+<a class="skip" href="#workspace">Skip to practice</a>
+<header><a href="index.html#notes" class="brand">§ <span>PgDL Study Desk</span></a><a href="index.html#timeline">Daily timeline</a></header>
+<main id="workspace">
+<div class="intro"><div><p class="eyebrow">Equity &amp; Trusts</p><h1>A little practice.<br>A clearer rule.</h1><p>Up to eight questions at a time. Choose an answer, learn why, then try again.</p></div><div class="stats" aria-label="Your practice progress"><div><strong id="xp">0</strong><span>practice XP</span></div><div><strong id="mastered">0 / 48</strong><span>answered correctly</span></div><div><strong id="streak">0</strong><span>day streak</span></div></div></div>
+<p id="storage-note" class="notice" hidden>Browser storage is unavailable. You can practise, but progress will not survive closing this page.</p>
+<section id="setup" aria-labelledby="setup-title">
+<h2 id="setup-title">Choose your round</h2>
+<div class="setup-grid"><label>Topic<select id="topic"><option value="all">All eight units</option></select></label><label>Question style<select id="format"><option value="mixed">Mix of both</option><option value="mc">Multiple choice</option><option value="blank">Word-bank blanks</option></select></label></div>
+<div class="actions"><button id="start">Start practice round</button><button id="mistakes" class="secondary">Practise mistakes <span id="mistake-count">(0)</span></button><button id="resume" class="secondary" hidden>Resume round</button></div>
+<p id="setup-status" role="status"></p>
+<div class="unit-path" id="unit-path"></div>
+<p class="small">Each unit has three multiple-choice questions and three word-bank blanks. General revision only: these are original practice questions drawn from the existing Study Desk notes, not official SBAs or the released assessment. Use your assigned readings for the full syllabus.</p>
+</section>
+<section id="round" aria-labelledby="round-title" hidden>
+<div class="round-top"><button id="pause" class="text-button">Save &amp; leave round</button><span id="round-count"></span><span id="combo"></span></div>
+<progress id="round-progress" max="8" value="0" aria-label="Questions checked"></progress>
+<div class="question-box"><p id="question-type" class="eyebrow"></p><h2 id="round-title" tabindex="-1"></h2><p id="question-help" class="small"></p><div id="options" class="options" role="group" aria-labelledby="round-title"></div><button id="check" disabled>Check answer</button><div id="feedback" role="status" aria-live="polite"></div><button id="next" hidden>Next question</button></div>
+<p class="small">Choose an option, then check. Your first checked answer counts for this round. Mistakes stay available for practice; there are no lives or lockouts.</p>
+</section>
+<section id="result" aria-labelledby="result-title" hidden><p class="eyebrow">Round complete</p><h2 id="result-title" tabindex="-1"></h2><p id="result-message"></p><div id="round-review"></div><div class="actions"><button id="retry">Retry this round’s mistakes</button><button id="another" class="secondary">Choose another round</button></div></section>
+<footer><p>10 XP for the first correct answer to each question, plus 5 XP per completed round. XP rewards practice, not exam readiness. Progress and mistakes stay in this browser on this device; they do not change your study checklist or submit anything to the university.</p><p>Streaks count days when you complete a round, using Hong Kong dates. <a href="index.html#readings">Readings &amp; course links</a> · <button id="reset" class="text-button">Reset practice progress</button></p></footer>
+</main>
+</body></html>
