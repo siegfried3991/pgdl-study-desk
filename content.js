@@ -936,3 +936,17 @@ study.timeline = {
   ]
 };
 for (const [key,subject,field] of [["elsGuide","els","guide"],["eqGuide","equity","guide"],["elsUpdate","els","update"],["eqUpdate","equity","update"]]) study.timeline.resources[key].url=study.subjects[subject][field];
+
+// Targeted correspondence review on 15 November. The last full mailbox review timestamp is retained.
+study.timeline.latestEmail = '13 November 2026 · January resit assessment changes';
+study.timeline.summary = 'Targeted review on 15 November covered January resit instructions and individual completion advice. January registration closes on 23 November. January 2028 is the confirmed completion month. Remaining attempts, pending-results registration and the final eligible backup sitting await written confirmation. The full-mailbox-review timestamp above is historical.';
+Object.assign(study.timeline.resources, {
+  resitSchedule2027: {label: 'Official resit schedule', url: 'https://elite.law.ac.uk/webapps/blackboard/content/listContent.jsp?course_id=_41214_1&content_id=_12650001_1', file: 'PgDL_MA Law (SQE 1 )_MA Law (Conversion)_Resit Schedule.pdf', note: 'Check sitting dates and eligibility in the current university schedule.'},
+  resitForm2027: {label: 'Current PG Resit Application Form', url: 'https://ulaw365.sharepoint.com/:w:/s/ao/IQDMR3gRO3FhQJOb_wptaz0qAfuL7ZYREfW-2RwE2APhE3E', file: 'FORM - AO154 - PG Resit Application Form.docx', note: 'Latest results must be published before registration under the form wording. Obtain written advice on January registration while November results are pending.'}
+});
+study.timeline.days.push(
+  {date:'2026-11-15',title:'Confirm eligibility for the proposed 2027 plan',tasks:[{id:'jan27-confirm-eligibility',kind:'Suggested administration',title:'Review the university enquiry and draft January form',text:'Request remaining attempts for all six modules, treatment of the missed November assessments, ELS coursework status, January registration while results are pending, and November 2027 backup eligibility. Draft preparation does not establish registration.',resources:['resitSchedule2027','resitForm2027'],units:[],output:'Written university confirmation and a reviewed private application draft.'}]},
+  {date:'2026-11-20',title:'Follow up before the January registration deadline',tasks:[{id:'jan27-followup',kind:'Suggested administration',title:'Resolve unanswered registration questions',text:'Suggested follow-up date. Ask the Online Programme and Student Lead and Resits Team to confirm the accepted registration route before 23 November. Verify exact ELS and Equity assessment dates and components.',resources:['resitSchedule2027','resitForm2027'],units:[],output:'Confirmed eligibility and instructions for completing the application.'}]},
+  {date:'2026-11-23',title:'January resit registration deadline',tasks:[{id:'jan27-register-deadline',kind:'Official deadline',title:'Ensure any eligible January application reaches the university',text:'The 13 November university instructions give 23 November as the registration deadline. A closing time has not been verified. Resolve the pending-results restriction before submission and retain the registration confirmation.',resources:['resitSchedule2027','resitForm2027'],units:[],output:'University registration confirmation, if the application is accepted.'}]}
+);
+study.timeline.days.sort((a,b) => a.date.localeCompare(b.date));
