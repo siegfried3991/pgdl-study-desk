@@ -1,0 +1,1079 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//PgDL Study Desk//Suggested Revision//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:pgdl-study-20261118@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261118T103000Z
+DTEND:20261118T113000Z
+SUMMARY:Suggested study: Set up the two-subject revision desk
+DESCRIPTION:Save the private material packs\, find both course outlines a
+ nd review this plan. The two-module application has been sent\; acceptan
+ ce\, components and oral appointment remain pending. Do not infer regist
+ ration from a checklist tick.\nOfficial appointments must be confirmed s
+ eparately.\nhttps://siegfried3991.github.io/pgdl-study-desk/january.html
+ #daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261119@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261119T103000Z
+DTEND:20261119T113000Z
+SUMMARY:Suggested study: Land Unit 1: Classify the right before applying 
+ priority
+DESCRIPTION:Read the directed section\, then close it and reconstruct the
+  unit approach. Write a 25-minute answer to a fresh problem\, then mark 
+ the missing issues. Review one earlier unit after 1\, 3 or 7 days and lo
+ g one error. Aim for two 35-minute blocks and 10 minutes of retrieval\; 
+ weekend extension is optional.\nOfficial appointments must be confirmed 
+ separately.\nhttps://siegfried3991.github.io/pgdl-study-desk/january.htm
+ l#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261120@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261120T103000Z
+DTEND:20261120T113000Z
+SUMMARY:Suggested study: Organisations Unit 1: Business structures and se
+ parate personality
+DESCRIPTION:ADMINISTRATION: Check whether the university has accepted the
+  application or requested corrections\; do not wait past the registratio
+ n deadline. STUDY: Read the directed section\, then close it and reconst
+ ruct the unit approach. Record a 4-minute explanation and answer two fol
+ low-up questions aloud. Review one earlier unit after 1\, 3 or 7 days an
+ d log one error. Aim for two 35-minute blocks and 10 minutes of retrieva
+ l\; weekend extension is optional.\nOfficial appointments must be confir
+ med separately.\nhttps://siegfried3991.github.io/pgdl-study-desk/january
+ .html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261121@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261121T103000Z
+DTEND:20261121T113000Z
+SUMMARY:Suggested study: Land Unit 2: Unregistered land and the protectio
+ n route
+DESCRIPTION:Read the directed section\, then close it and reconstruct the
+  unit approach. Write a 25-minute answer to a fresh problem\, then mark 
+ the missing issues. Review one earlier unit after 1\, 3 or 7 days and lo
+ g one error. Aim for two 35-minute blocks and 10 minutes of retrieval\; 
+ weekend extension is optional.\nOfficial appointments must be confirmed 
+ separately.\nhttps://siegfried3991.github.io/pgdl-study-desk/january.htm
+ l#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261122@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261122T103000Z
+DTEND:20261122T113000Z
+SUMMARY:Suggested study: Organisations Unit 2: Partnership authority and 
+ liability
+DESCRIPTION:Read the directed section\, then close it and reconstruct the
+  unit approach. Record a 4-minute explanation and answer two follow-up q
+ uestions aloud. Review one earlier unit after 1\, 3 or 7 days and log on
+ e error. Aim for two 35-minute blocks and 10 minutes of retrieval\; week
+ end extension is optional.\nOfficial appointments must be confirmed sepa
+ rately.\nhttps://siegfried3991.github.io/pgdl-study-desk/january.html#da
+ ily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261123@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261123T103000Z
+DTEND:20261123T113000Z
+SUMMARY:Suggested study: Land Unit 3: Registered title and overriding int
+ erests
+DESCRIPTION:ADMINISTRATION: Strict January registration deadline. Verify 
+ the application has been received and ask promptly about unresolved corr
+ ections or booking. An acknowledgement alone is not acceptance. STUDY: R
+ ead the directed section\, then close it and reconstruct the unit approa
+ ch. Write a 25-minute answer to a fresh problem\, then mark the missing 
+ issues. Review one earlier unit after 1\, 3 or 7 days and log one error.
+  Aim for two 35-minute blocks and 10 minutes of retrieval\; weekend exte
+ nsion is optional.\nOfficial appointments must be confirmed separately.\
+ nhttps://siegfried3991.github.io/pgdl-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261124@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261124T103000Z
+DTEND:20261124T113000Z
+SUMMARY:Suggested study: Organisations Unit 3: Incorporation and the cons
+ titution
+DESCRIPTION:Read the directed section\, then close it and reconstruct the
+  unit approach. Record a 4-minute explanation and answer two follow-up q
+ uestions aloud. Review one earlier unit after 1\, 3 or 7 days and log on
+ e error. Aim for two 35-minute blocks and 10 minutes of retrieval\; week
+ end extension is optional.\nOfficial appointments must be confirmed sepa
+ rately.\nhttps://siegfried3991.github.io/pgdl-study-desk/january.html#da
+ ily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261125@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261125T103000Z
+DTEND:20261125T113000Z
+SUMMARY:Suggested study: Land Unit 4: Co-ownership and severance
+DESCRIPTION:Read the directed section\, then close it and reconstruct the
+  unit approach. Write a 25-minute answer to a fresh problem\, then mark 
+ the missing issues. Review one earlier unit after 1\, 3 or 7 days and lo
+ g one error. Aim for two 35-minute blocks and 10 minutes of retrieval\; 
+ weekend extension is optional.\nOfficial appointments must be confirmed 
+ separately.\nhttps://siegfried3991.github.io/pgdl-study-desk/january.htm
+ l#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261126@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261126T103000Z
+DTEND:20261126T113000Z
+SUMMARY:Suggested study: Organisations Unit 4: Directors and valid board 
+ decisions
+DESCRIPTION:Read the directed section\, then close it and reconstruct the
+  unit approach. Record a 4-minute explanation and answer two follow-up q
+ uestions aloud. Review one earlier unit after 1\, 3 or 7 days and log on
+ e error. Aim for two 35-minute blocks and 10 minutes of retrieval\; week
+ end extension is optional.\nOfficial appointments must be confirmed sepa
+ rately.\nhttps://siegfried3991.github.io/pgdl-study-desk/january.html#da
+ ily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261127@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261127T103000Z
+DTEND:20261127T113000Z
+SUMMARY:Suggested study: Land Unit 5: Leases and leasehold covenants
+DESCRIPTION:Read the directed section\, then close it and reconstruct the
+  unit approach. Write a 25-minute answer to a fresh problem\, then mark 
+ the missing issues. Review one earlier unit after 1\, 3 or 7 days and lo
+ g one error. Aim for two 35-minute blocks and 10 minutes of retrieval\; 
+ weekend extension is optional.\nOfficial appointments must be confirmed 
+ separately.\nhttps://siegfried3991.github.io/pgdl-study-desk/january.htm
+ l#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261128@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261128T103000Z
+DTEND:20261128T113000Z
+SUMMARY:Suggested study: Organisations Unit 5: Shareholders and voting pr
+ ocedures
+DESCRIPTION:Read the directed section\, then close it and reconstruct the
+  unit approach. Record a 4-minute explanation and answer two follow-up q
+ uestions aloud. Review one earlier unit after 1\, 3 or 7 days and log on
+ e error. Aim for two 35-minute blocks and 10 minutes of retrieval\; week
+ end extension is optional.\nOfficial appointments must be confirmed sepa
+ rately.\nhttps://siegfried3991.github.io/pgdl-study-desk/january.html#da
+ ily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261129@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261129T103000Z
+DTEND:20261129T113000Z
+SUMMARY:Suggested study: Land Unit 6: Freehold covenants and reform
+DESCRIPTION:Read the directed section\, then close it and reconstruct the
+  unit approach. Write a 25-minute answer to a fresh problem\, then mark 
+ the missing issues. Review one earlier unit after 1\, 3 or 7 days and lo
+ g one error. Aim for two 35-minute blocks and 10 minutes of retrieval\; 
+ weekend extension is optional.\nOfficial appointments must be confirmed 
+ separately.\nhttps://siegfried3991.github.io/pgdl-study-desk/january.htm
+ l#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261130@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261130T103000Z
+DTEND:20261130T113000Z
+SUMMARY:Suggested study: Organisations Unit 6: Transactions requiring app
+ roval and distributions
+DESCRIPTION:Read the directed section\, then close it and reconstruct the
+  unit approach. Record a 4-minute explanation and answer two follow-up q
+ uestions aloud. Review one earlier unit after 1\, 3 or 7 days and log on
+ e error. Aim for two 35-minute blocks and 10 minutes of retrieval\; week
+ end extension is optional.\nOfficial appointments must be confirmed sepa
+ rately.\nhttps://siegfried3991.github.io/pgdl-study-desk/january.html#da
+ ily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261201@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261201T103000Z
+DTEND:20261201T113000Z
+SUMMARY:Suggested study: Land Unit 7: Easements and their creation
+DESCRIPTION:Read the directed section\, then close it and reconstruct the
+  unit approach. Write a 25-minute answer to a fresh problem\, then mark 
+ the missing issues. Review one earlier unit after 1\, 3 or 7 days and lo
+ g one error. Aim for two 35-minute blocks and 10 minutes of retrieval\; 
+ weekend extension is optional.\nOfficial appointments must be confirmed 
+ separately.\nhttps://siegfried3991.github.io/pgdl-study-desk/january.htm
+ l#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261202@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261202T103000Z
+DTEND:20261202T113000Z
+SUMMARY:Suggested study: Organisations Unit 7: Directors’ duties and re
+ medies
+DESCRIPTION:Read the directed section\, then close it and reconstruct the
+  unit approach. Record a 4-minute explanation and answer two follow-up q
+ uestions aloud. Review one earlier unit after 1\, 3 or 7 days and log on
+ e error. Aim for two 35-minute blocks and 10 minutes of retrieval\; week
+ end extension is optional.\nOfficial appointments must be confirmed sepa
+ rately.\nhttps://siegfried3991.github.io/pgdl-study-desk/january.html#da
+ ily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261203@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261203T103000Z
+DTEND:20261203T113000Z
+SUMMARY:Suggested study: Land Unit 8: Mortgages and the buyer from a mort
+ gagee
+DESCRIPTION:Read the directed section\, then close it and reconstruct the
+  unit approach. Write a 25-minute answer to a fresh problem\, then mark 
+ the missing issues. Review one earlier unit after 1\, 3 or 7 days and lo
+ g one error. Aim for two 35-minute blocks and 10 minutes of retrieval\; 
+ weekend extension is optional.\nOfficial appointments must be confirmed 
+ separately.\nhttps://siegfried3991.github.io/pgdl-study-desk/january.htm
+ l#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261204@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261204T103000Z
+DTEND:20261204T113000Z
+SUMMARY:Suggested study: Organisations Unit 8: Debt finance and insolvenc
+ y
+DESCRIPTION:Read the directed section\, then close it and reconstruct the
+  unit approach. Record a 4-minute explanation and answer two follow-up q
+ uestions aloud. Review one earlier unit after 1\, 3 or 7 days and log on
+ e error. Aim for two 35-minute blocks and 10 minutes of retrieval\; week
+ end extension is optional.\nOfficial appointments must be confirmed sepa
+ rately.\nhttps://siegfried3991.github.io/pgdl-study-desk/january.html#da
+ ily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261205@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261205T103000Z
+DTEND:20261205T113000Z
+SUMMARY:Suggested study: Connect the first four units
+DESCRIPTION:Build a Land classification/priority checklist and an Organis
+ ations authority/procedure checklist. Use two short scenarios\; explain 
+ why each wrong route is wrong.\nOfficial appointments must be confirmed 
+ separately.\nhttps://siegfried3991.github.io/pgdl-study-desk/january.htm
+ l#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261206@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261206T103000Z
+DTEND:20261206T113000Z
+SUMMARY:Suggested study: Connect units five to eight
+DESCRIPTION:Work one mixed Land problem and a company transaction problem
+ . Revisit missed flashcards from 1\, 3 and 7 days ago.\nOfficial appoint
+ ments must be confirmed separately.\nhttps://siegfried3991.github.io/pgd
+ l-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261207@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261207T103000Z
+DTEND:20261207T113000Z
+SUMMARY:Suggested study: First Land practice attempt
+DESCRIPTION:Use the saved specimen mock independently for 60 minutes\, th
+ en review its Points to Note. Record missing issues\, authority and appl
+ ication separately. This is practice\, not a new assessed answer.\nOffic
+ ial appointments must be confirmed separately.\nhttps://siegfried3991.gi
+ thub.io/pgdl-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261208@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261208T103000Z
+DTEND:20261208T113000Z
+SUMMARY:Suggested study: First Organisations oral rehearsal
+DESCRIPTION:Use a specimen oral. Practise up to 10 minutes of factual Q&A
+  and 10 minutes of evaluation\, then compare the generic feedback. This 
+ follows historical practice guidance\; confirm the January format when i
+ ssued.\nOfficial appointments must be confirmed separately.\nhttps://sie
+ gfried3991.github.io/pgdl-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261209@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261209T103000Z
+DTEND:20261209T113000Z
+SUMMARY:Suggested study: Repair priority and procedure errors
+DESCRIPTION:Rework two errors from memory\, draw a priority timeline and 
+ explain a valid board/member decision sequence aloud. Reattempt four app
+ lication questions.\nOfficial appointments must be confirmed separately.
+ \nhttps://siegfried3991.github.io/pgdl-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261210@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261210T103000Z
+DTEND:20261210T113000Z
+SUMMARY:Suggested study: Second oral rehearsal
+DESCRIPTION:Practise concise rule–application–conclusion answers\, th
+ en respond to counterarguments on separate personality\, company power\,
+  stakeholder value and insolvency.\nOfficial appointments must be confir
+ med separately.\nhttps://siegfried3991.github.io/pgdl-study-desk/january
+ .html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261211@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261211T103000Z
+DTEND:20261211T113000Z
+SUMMARY:Suggested study: Check the assessment setup
+DESCRIPTION:Check the registration reply\, current January candidate inst
+ ructions\, oral appointment\, permitted materials and proctoring require
+ ments. Test the supported device\, camera\, microphone and connection us
+ ing university practice guidance. No installation or permission change i
+ s assumed complete.\nOfficial appointments must be confirmed separately.
+ \nhttps://siegfried3991.github.io/pgdl-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261212@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261212T103000Z
+DTEND:20261212T113000Z
+SUMMARY:Suggested study: Be ready for the earliest oral
+DESCRIPTION:Run one full rehearsal using a specimen\, then make a one-pag
+ e map of issues and authorities. Read a released new title only when the
+  university permits\; this plan does not assume it has been issued.\nOff
+ icial appointments must be confirmed separately.\nhttps://siegfried3991.
+ github.io/pgdl-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261213@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261213T103000Z
+DTEND:20261213T113000Z
+SUMMARY:Suggested study: Light recall and oral readiness
+DESCRIPTION:Practise six short follow-up answers. Check appointment detai
+ ls and prepare the permitted setup. Stop intensive revision early.\nOffi
+ cial appointments must be confirmed separately.\nhttps://siegfried3991.g
+ ithub.io/pgdl-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261214@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261214T103000Z
+DTEND:20261214T113000Z
+SUMMARY:Suggested study: Land Unit 1 application and oral maintenance
+DESCRIPTION:ADMINISTRATION: The published Organisations oral window start
+ s today. Attend only your allocated appointment\; be ready from this dat
+ e. STUDY: Write one 25-minute Land problem paragraph\, check it against 
+ the source\, then explain the key rule without notes. If the Organisatio
+ ns oral is still ahead\, add a 10-minute spoken scenario and one counter
+ argument. If your actual oral is today\, the confirmed appointment takes
+  priority.\nOfficial appointments must be confirmed separately.\nhttps:/
+ /siegfried3991.github.io/pgdl-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261215@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261215T103000Z
+DTEND:20261215T113000Z
+SUMMARY:Suggested study: Land Unit 2 application and oral maintenance
+DESCRIPTION:Write one 25-minute Land problem paragraph\, check it against
+  the source\, then explain the key rule without notes. If the Organisati
+ ons oral is still ahead\, add a 10-minute spoken scenario and one counte
+ rargument. If your actual oral is today\, the confirmed appointment take
+ s priority.\nOfficial appointments must be confirmed separately.\nhttps:
+ //siegfried3991.github.io/pgdl-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261216@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261216T103000Z
+DTEND:20261216T113000Z
+SUMMARY:Suggested study: Land Unit 3 application and oral maintenance
+DESCRIPTION:Write one 25-minute Land problem paragraph\, check it against
+  the source\, then explain the key rule without notes. If the Organisati
+ ons oral is still ahead\, add a 10-minute spoken scenario and one counte
+ rargument. If your actual oral is today\, the confirmed appointment take
+ s priority.\nOfficial appointments must be confirmed separately.\nhttps:
+ //siegfried3991.github.io/pgdl-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261217@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261217T103000Z
+DTEND:20261217T113000Z
+SUMMARY:Suggested study: Land Unit 4 application and oral maintenance
+DESCRIPTION:Write one 25-minute Land problem paragraph\, check it against
+  the source\, then explain the key rule without notes. If the Organisati
+ ons oral is still ahead\, add a 10-minute spoken scenario and one counte
+ rargument. If your actual oral is today\, the confirmed appointment take
+ s priority.\nOfficial appointments must be confirmed separately.\nhttps:
+ //siegfried3991.github.io/pgdl-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261218@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261218T103000Z
+DTEND:20261218T113000Z
+SUMMARY:Suggested study: Land Unit 5 application and oral maintenance
+DESCRIPTION:Write one 25-minute Land problem paragraph\, check it against
+  the source\, then explain the key rule without notes. If the Organisati
+ ons oral is still ahead\, add a 10-minute spoken scenario and one counte
+ rargument. If your actual oral is today\, the confirmed appointment take
+ s priority.\nOfficial appointments must be confirmed separately.\nhttps:
+ //siegfried3991.github.io/pgdl-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261219@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261219T103000Z
+DTEND:20261219T113000Z
+SUMMARY:Suggested study: Land Unit 6 application and oral maintenance
+DESCRIPTION:Write one 25-minute Land problem paragraph\, check it against
+  the source\, then explain the key rule without notes. If the Organisati
+ ons oral is still ahead\, add a 10-minute spoken scenario and one counte
+ rargument. If your actual oral is today\, the confirmed appointment take
+ s priority.\nOfficial appointments must be confirmed separately.\nhttps:
+ //siegfried3991.github.io/pgdl-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261220@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261220T103000Z
+DTEND:20261220T113000Z
+SUMMARY:Suggested study: Land Unit 7 application and oral maintenance
+DESCRIPTION:Write one 25-minute Land problem paragraph\, check it against
+  the source\, then explain the key rule without notes. If the Organisati
+ ons oral is still ahead\, add a 10-minute spoken scenario and one counte
+ rargument. If your actual oral is today\, the confirmed appointment take
+ s priority.\nOfficial appointments must be confirmed separately.\nhttps:
+ //siegfried3991.github.io/pgdl-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261221@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261221T103000Z
+DTEND:20261221T113000Z
+SUMMARY:Suggested study: Land Unit 8 application and oral maintenance
+DESCRIPTION:Write one 25-minute Land problem paragraph\, check it against
+  the source\, then explain the key rule without notes. If the Organisati
+ ons oral is still ahead\, add a 10-minute spoken scenario and one counte
+ rargument. If your actual oral is today\, the confirmed appointment take
+ s priority.\nOfficial appointments must be confirmed separately.\nhttps:
+ //siegfried3991.github.io/pgdl-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261222@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261222T103000Z
+DTEND:20261222T113000Z
+SUMMARY:Suggested study: Land Unit 1 application and oral maintenance
+DESCRIPTION:Write one 25-minute Land problem paragraph\, check it against
+  the source\, then explain the key rule without notes. If the Organisati
+ ons oral is still ahead\, add a 10-minute spoken scenario and one counte
+ rargument. If your actual oral is today\, the confirmed appointment take
+ s priority.\nOfficial appointments must be confirmed separately.\nhttps:
+ //siegfried3991.github.io/pgdl-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261223@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261223T103000Z
+DTEND:20261223T113000Z
+SUMMARY:Suggested study: Land Unit 2 application and oral maintenance
+DESCRIPTION:Write one 25-minute Land problem paragraph\, check it against
+  the source\, then explain the key rule without notes. If the Organisati
+ ons oral is still ahead\, add a 10-minute spoken scenario and one counte
+ rargument. If your actual oral is today\, the confirmed appointment take
+ s priority.\nOfficial appointments must be confirmed separately.\nhttps:
+ //siegfried3991.github.io/pgdl-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261224@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261224T103000Z
+DTEND:20261224T113000Z
+SUMMARY:Suggested study: Land Unit 3 application and oral maintenance
+DESCRIPTION:Write one 25-minute Land problem paragraph\, check it against
+  the source\, then explain the key rule without notes. If the Organisati
+ ons oral is still ahead\, add a 10-minute spoken scenario and one counte
+ rargument. If your actual oral is today\, the confirmed appointment take
+ s priority.\nOfficial appointments must be confirmed separately.\nhttps:
+ //siegfried3991.github.io/pgdl-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261225@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261225T103000Z
+DTEND:20261225T113000Z
+SUMMARY:Suggested study: Land Unit 4 application and oral maintenance
+DESCRIPTION:Write one 25-minute Land problem paragraph\, check it against
+  the source\, then explain the key rule without notes. If the Organisati
+ ons oral is still ahead\, add a 10-minute spoken scenario and one counte
+ rargument. If your actual oral is today\, the confirmed appointment take
+ s priority.\nOfficial appointments must be confirmed separately.\nhttps:
+ //siegfried3991.github.io/pgdl-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261226@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261226T103000Z
+DTEND:20261226T113000Z
+SUMMARY:Suggested study: Land Unit 5 application and oral maintenance
+DESCRIPTION:Write one 25-minute Land problem paragraph\, check it against
+  the source\, then explain the key rule without notes. If the Organisati
+ ons oral is still ahead\, add a 10-minute spoken scenario and one counte
+ rargument. If your actual oral is today\, the confirmed appointment take
+ s priority.\nOfficial appointments must be confirmed separately.\nhttps:
+ //siegfried3991.github.io/pgdl-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261227@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261227T103000Z
+DTEND:20261227T113000Z
+SUMMARY:Suggested study: Land timed practice
+DESCRIPTION:Use a different specimen or historical practice paper. Reserv
+ e the published 2-hour-15-minute timetable window as a planning block\; 
+ apply the actual January candidate instructions to working and administr
+ ation time when released. Mark only after finishing.\nOfficial appointme
+ nts must be confirmed separately.\nhttps://siegfried3991.github.io/pgdl-
+ study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261228@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261228T103000Z
+DTEND:20261228T113000Z
+SUMMARY:Suggested study: Mark the practice and repair gaps
+DESCRIPTION:Use the correct specimen feedback. Rewrite weak applications\
+ , not the entire answer. Create three questions targeting your mistakes.
+ \nOfficial appointments must be confirmed separately.\nhttps://siegfried
+ 3991.github.io/pgdl-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261229@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261229T103000Z
+DTEND:20261229T113000Z
+SUMMARY:Suggested study: Land Unit 8 application and oral maintenance
+DESCRIPTION:Write one 25-minute Land problem paragraph\, check it against
+  the source\, then explain the key rule without notes. If the Organisati
+ ons oral is still ahead\, add a 10-minute spoken scenario and one counte
+ rargument. If your actual oral is today\, the confirmed appointment take
+ s priority.\nOfficial appointments must be confirmed separately.\nhttps:
+ //siegfried3991.github.io/pgdl-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261230@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261230T103000Z
+DTEND:20261230T113000Z
+SUMMARY:Suggested study: Land Unit 1 application and oral maintenance
+DESCRIPTION:Write one 25-minute Land problem paragraph\, check it against
+  the source\, then explain the key rule without notes. If the Organisati
+ ons oral is still ahead\, add a 10-minute spoken scenario and one counte
+ rargument. If your actual oral is today\, the confirmed appointment take
+ s priority.\nOfficial appointments must be confirmed separately.\nhttps:
+ //siegfried3991.github.io/pgdl-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20261231@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20261231T103000Z
+DTEND:20261231T113000Z
+SUMMARY:Suggested study: Light end-of-year retrieval
+DESCRIPTION:Spend 30–40 minutes recalling the hardest rules and reviewi
+ ng the error log\; preserve rest.\nOfficial appointments must be confirm
+ ed separately.\nhttps://siegfried3991.github.io/pgdl-study-desk/january.
+ html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20270101@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20270101T103000Z
+DTEND:20270101T113000Z
+SUMMARY:Suggested study: Rest and a short memory check
+DESCRIPTION:Optional 20-minute recall only. Carry unfinished optional stu
+ dy to a later block rather than doubling today’s workload.\nOfficial a
+ ppointments must be confirmed separately.\nhttps://siegfried3991.github.
+ io/pgdl-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20270102@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20270102T103000Z
+DTEND:20270102T113000Z
+SUMMARY:Suggested study: Final Land practice
+DESCRIPTION:Do a fresh mixed problem or remaining specimen under the conf
+ irmed January conditions. Review the structure and time allocation again
+ st current candidate instructions.\nOfficial appointments must be confir
+ med separately.\nhttps://siegfried3991.github.io/pgdl-study-desk/january
+ .html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20270103@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20270103T103000Z
+DTEND:20270103T113000Z
+SUMMARY:Suggested study: Final corrections
+DESCRIPTION:Close the sources and reproduce priority\, covenant and mortg
+ age structures. Repair only the weaknesses demonstrated by practice.\nOf
+ ficial appointments must be confirmed separately.\nhttps://siegfried3991
+ .github.io/pgdl-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20270104@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20270104T103000Z
+DTEND:20270104T113000Z
+SUMMARY:Suggested study: Verify documents and permitted setup
+DESCRIPTION:Check final booking\, exact examination link\, start time\, a
+ pplicable adjustments and permitted materials. Complete the official pra
+ ctice/setup checks. Do not infer an adjustment from being in Hong Kong.\
+ nOfficial appointments must be confirmed separately.\nhttps://siegfried3
+ 991.github.io/pgdl-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20270105@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20270105T103000Z
+DTEND:20270105T113000Z
+SUMMARY:Suggested study: Light Land review and release check
+DESCRIPTION:Review the error log and sleep plan. Check January instructio
+ ns for any advance-material release\; no release time or paper is assume
+ d here. Never open the actual examination before your applicable start.\
+ nOfficial appointments must be confirmed separately.\nhttps://siegfried3
+ 991.github.io/pgdl-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20270106@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20270106T103000Z
+DTEND:20270106T113000Z
+SUMMARY:Suggested study: Land scheduled examination
+DESCRIPTION:Published standard timetable: proctored written exam 21:30–
+ 23:45 HKT (13:30–15:45 UK). Separate Land SBAQ is listed 17:30–18:30
+  HKT\, with 45 minutes within that window\, only if the university confi
+ rms that component applies. Use your acceptance and January instructions
+ \; retain the completion/submission record. These are scheduled times\, 
+ not proof of a booking.\nOfficial appointments must be confirmed separat
+ ely.\nhttps://siegfried3991.github.io/pgdl-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20270107@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20270107T103000Z
+DTEND:20270107T113000Z
+SUMMARY:Suggested study: Organisations follow-up and conditional practice
+DESCRIPTION:If your oral is still ahead\, rehearse one factual answer and
+  one evaluative answer using released permitted material. If it is compl
+ ete\, retain evidence and prepare a separate SBAQ only if required. Revi
+ ew one weak unit\; otherwise keep this a light day.\nOfficial appointmen
+ ts must be confirmed separately.\nhttps://siegfried3991.github.io/pgdl-s
+ tudy-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20270108@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20270108T103000Z
+DTEND:20270108T113000Z
+SUMMARY:Suggested study: Organisations follow-up and conditional practice
+DESCRIPTION:If your oral is still ahead\, rehearse one factual answer and
+  one evaluative answer using released permitted material. If it is compl
+ ete\, retain evidence and prepare a separate SBAQ only if required. Revi
+ ew one weak unit\; otherwise keep this a light day.\nOfficial appointmen
+ ts must be confirmed separately.\nhttps://siegfried3991.github.io/pgdl-s
+ tudy-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20270109@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20270109T103000Z
+DTEND:20270109T113000Z
+SUMMARY:Suggested study: Organisations follow-up and conditional practice
+DESCRIPTION:If your oral is still ahead\, rehearse one factual answer and
+  one evaluative answer using released permitted material. If it is compl
+ ete\, retain evidence and prepare a separate SBAQ only if required. Revi
+ ew one weak unit\; otherwise keep this a light day.\nOfficial appointmen
+ ts must be confirmed separately.\nhttps://siegfried3991.github.io/pgdl-s
+ tudy-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20270110@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20270110T103000Z
+DTEND:20270110T113000Z
+SUMMARY:Suggested study: Organisations follow-up and conditional practice
+DESCRIPTION:If your oral is still ahead\, rehearse one factual answer and
+  one evaluative answer using released permitted material. If it is compl
+ ete\, retain evidence and prepare a separate SBAQ only if required. Revi
+ ew one weak unit\; otherwise keep this a light day.\nOfficial appointmen
+ ts must be confirmed separately.\nhttps://siegfried3991.github.io/pgdl-s
+ tudy-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20270111@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20270111T103000Z
+DTEND:20270111T113000Z
+SUMMARY:Suggested study: Organisations follow-up and conditional practice
+DESCRIPTION:If your oral is still ahead\, rehearse one factual answer and
+  one evaluative answer using released permitted material. If it is compl
+ ete\, retain evidence and prepare a separate SBAQ only if required. Revi
+ ew one weak unit\; otherwise keep this a light day.\nOfficial appointmen
+ ts must be confirmed separately.\nhttps://siegfried3991.github.io/pgdl-s
+ tudy-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20270112@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20270112T103000Z
+DTEND:20270112T113000Z
+SUMMARY:Suggested study: Organisations follow-up and conditional practice
+DESCRIPTION:If your oral is still ahead\, rehearse one factual answer and
+  one evaluative answer using released permitted material. If it is compl
+ ete\, retain evidence and prepare a separate SBAQ only if required. Revi
+ ew one weak unit\; otherwise keep this a light day.\nOfficial appointmen
+ ts must be confirmed separately.\nhttps://siegfried3991.github.io/pgdl-s
+ tudy-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20270113@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20270113T103000Z
+DTEND:20270113T113000Z
+SUMMARY:Suggested study: Organisations follow-up and conditional practice
+DESCRIPTION:If your oral is still ahead\, rehearse one factual answer and
+  one evaluative answer using released permitted material. If it is compl
+ ete\, retain evidence and prepare a separate SBAQ only if required. Revi
+ ew one weak unit\; otherwise keep this a light day.\nOfficial appointmen
+ ts must be confirmed separately.\nhttps://siegfried3991.github.io/pgdl-s
+ tudy-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20270114@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20270114T103000Z
+DTEND:20270114T113000Z
+SUMMARY:Suggested study: Conditional Organisations SBAQ
+DESCRIPTION:Only if confirmed applicable: the schedule lists proctored SB
+ AQ 21:30–22:30 HKT (13:30–14:30 UK)\, 45 minutes within the window. 
+ Do not assume this is required under the single-component transition. Ot
+ herwise use today for any confirmed oral appointment or a short record c
+ heck.\nOfficial appointments must be confirmed separately.\nhttps://sieg
+ fried3991.github.io/pgdl-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pgdl-study-20270115@study-desk
+DTSTAMP:20261118T100000Z
+DTSTART:20270115T103000Z
+DTEND:20270115T113000Z
+SUMMARY:Suggested study: End of published oral appointment window
+DESCRIPTION:The published oral appointment range ends today. Your allocat
+ ed appointment\, not this range endpoint\, determines when you sit. Save
+  the attendance/completion evidence and any university follow-up.\nOffic
+ ial appointments must be confirmed separately.\nhttps://siegfried3991.gi
+ thub.io/pgdl-study-desk/january.html#daily
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Suggested revision reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
