@@ -1,5 +1,5 @@
 window.JANUARY = {
-  "updated": "18 November 2026",
+  "updated": "26 November 2026",
   "units": [
     {
       "id": "land-1",
@@ -1766,7 +1766,7 @@ window.JANUARY = {
       "units": [
         "org-4"
       ],
-      "task": "Read the directed section, then close it and reconstruct the unit approach. Record a 4-minute explanation and answer two follow-up questions aloud. Review one earlier unit after 1, 3 or 7 days and log one error. Aim for two 35-minute blocks and 10 minutes of retrieval; weekend extension is optional.",
+      "task": "REGISTRATION CONFIRMED: Land examination 100% and Organisations oral 100%; no separate SBAQs. Appointment email approximately one week before the oral. Read the directed section, then close it and reconstruct the unit approach. Record a 4-minute explanation and answer two follow-up questions aloud. Review one earlier unit after 1, 3 or 7 days and log one error. Aim for two 35-minute blocks and 10 minutes of retrieval; weekend extension is optional.",
       "kind": "Suggested study",
       "minutes": 80
     },
@@ -2256,8 +2256,8 @@ window.JANUARY = {
         "land-7",
         "land-8"
       ],
-      "task": "Published standard timetable: proctored written exam 21:30–23:45 HKT (13:30–15:45 UK). Separate Land SBAQ is listed 17:30–18:30 HKT, with 45 minutes within that window, only if the university confirms that component applies. Use your acceptance and January instructions; retain the completion/submission record. These are scheduled times, not proof of a booking.",
-      "kind": "Official schedule / conditional",
+      "task": "Registered Land timed online examination (100%). Published standard window: 21:30–23:45 HKT (13:30–15:45 UK). No separate SBAQ. Follow current candidate instructions and retain completion evidence.",
+      "kind": "Official registered assessment",
       "minutes": 0
     },
     {
@@ -2267,7 +2267,7 @@ window.JANUARY = {
         "land-1",
         "org-1"
       ],
-      "task": "If your oral is still ahead, rehearse one factual answer and one evaluative answer using released permitted material. If it is complete, retain evidence and prepare a separate SBAQ only if required. Review one weak unit; otherwise keep this a light day.",
+      "task": "If your oral is still ahead, rehearse one factual answer and one evaluative answer using released permitted material. If it is complete, retain evidence ; no separate SBAQ is required. Review one weak unit; otherwise keep this a light day.",
       "kind": "Suggested study",
       "minutes": 45
     },
@@ -2278,7 +2278,7 @@ window.JANUARY = {
         "land-2",
         "org-2"
       ],
-      "task": "If your oral is still ahead, rehearse one factual answer and one evaluative answer using released permitted material. If it is complete, retain evidence and prepare a separate SBAQ only if required. Review one weak unit; otherwise keep this a light day.",
+      "task": "If your oral is still ahead, rehearse one factual answer and one evaluative answer using released permitted material. If it is complete, retain evidence ; no separate SBAQ is required. Review one weak unit; otherwise keep this a light day.",
       "kind": "Suggested study",
       "minutes": 45
     },
@@ -2289,7 +2289,7 @@ window.JANUARY = {
         "land-3",
         "org-3"
       ],
-      "task": "If your oral is still ahead, rehearse one factual answer and one evaluative answer using released permitted material. If it is complete, retain evidence and prepare a separate SBAQ only if required. Review one weak unit; otherwise keep this a light day.",
+      "task": "If your oral is still ahead, rehearse one factual answer and one evaluative answer using released permitted material. If it is complete, retain evidence ; no separate SBAQ is required. Review one weak unit; otherwise keep this a light day.",
       "kind": "Suggested study",
       "minutes": 45
     },
@@ -2300,7 +2300,7 @@ window.JANUARY = {
         "land-4",
         "org-4"
       ],
-      "task": "If your oral is still ahead, rehearse one factual answer and one evaluative answer using released permitted material. If it is complete, retain evidence and prepare a separate SBAQ only if required. Review one weak unit; otherwise keep this a light day.",
+      "task": "If your oral is still ahead, rehearse one factual answer and one evaluative answer using released permitted material. If it is complete, retain evidence ; no separate SBAQ is required. Review one weak unit; otherwise keep this a light day.",
       "kind": "Suggested study",
       "minutes": 45
     },
@@ -2311,7 +2311,7 @@ window.JANUARY = {
         "land-5",
         "org-5"
       ],
-      "task": "If your oral is still ahead, rehearse one factual answer and one evaluative answer using released permitted material. If it is complete, retain evidence and prepare a separate SBAQ only if required. Review one weak unit; otherwise keep this a light day.",
+      "task": "If your oral is still ahead, rehearse one factual answer and one evaluative answer using released permitted material. If it is complete, retain evidence ; no separate SBAQ is required. Review one weak unit; otherwise keep this a light day.",
       "kind": "Suggested study",
       "minutes": 45
     },
@@ -2322,7 +2322,7 @@ window.JANUARY = {
         "land-6",
         "org-6"
       ],
-      "task": "If your oral is still ahead, rehearse one factual answer and one evaluative answer using released permitted material. If it is complete, retain evidence and prepare a separate SBAQ only if required. Review one weak unit; otherwise keep this a light day.",
+      "task": "If your oral is still ahead, rehearse one factual answer and one evaluative answer using released permitted material. If it is complete, retain evidence ; no separate SBAQ is required. Review one weak unit; otherwise keep this a light day.",
       "kind": "Suggested study",
       "minutes": 45
     },
@@ -2333,13 +2333,13 @@ window.JANUARY = {
         "land-7",
         "org-7"
       ],
-      "task": "If your oral is still ahead, rehearse one factual answer and one evaluative answer using released permitted material. If it is complete, retain evidence and prepare a separate SBAQ only if required. Review one weak unit; otherwise keep this a light day.",
+      "task": "If your oral is still ahead, rehearse one factual answer and one evaluative answer using released permitted material. If it is complete, retain evidence ; no separate SBAQ is required. Review one weak unit; otherwise keep this a light day.",
       "kind": "Suggested study",
       "minutes": 45
     },
     {
       "date": "2027-01-14",
-      "title": "Conditional Organisations SBAQ",
+      "title": "Oral preparation or completion-record check",
       "units": [
         "org-1",
         "org-2",
@@ -2350,9 +2350,9 @@ window.JANUARY = {
         "org-7",
         "org-8"
       ],
-      "task": "Only if confirmed applicable: the schedule lists proctored SBAQ 21:30–22:30 HKT (13:30–14:30 UK), 45 minutes within the window. Do not assume this is required under the single-component transition. Otherwise use today for any confirmed oral appointment or a short record check.",
-      "kind": "Official schedule / conditional",
-      "minutes": 0
+      "task": "No Organisations SBAQ is required: the registered oral is worth 100%. If your allocated oral is still ahead, rehearse with permitted materials; otherwise retain completion evidence.",
+      "kind": "Suggested study",
+      "minutes": 30
     },
     {
       "date": "2027-01-15",
